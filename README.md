@@ -1,1 +1,0 @@
-# shaanpakala.github.io
