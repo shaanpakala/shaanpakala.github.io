@@ -52,4 +52,4 @@
 <p style="font-size: 22px; line-height: 1.0;"><em>Spotline, inc.</em></p>
 
 <hr>
-<p style="font-size: 16px;"><i>Last Updated September 13, 2024</i></p>
+<p style="font-size: 16px;"><i>Last Updated September 14, 2024</i></p>
