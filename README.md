@@ -55,7 +55,7 @@
 <p style="font-size: 36px;"><b>Projects (click on image for GitHub)</b></p>
 <hr>
 
-<p style="font-size: 24px;"><b><u>Online Store Database</u></b></p>
+<p style="font-size: 24px;"><b><u>Simulated Online Store Database</u></b></p>
 
 <a href="https://github.com/shaanpakala/amazon_store_db" target="_blank">
   <img align="left" width="225" height="125" src="images/store_db_picture.png">
