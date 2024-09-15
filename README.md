@@ -52,7 +52,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
 
 <br>
-<p style="font-size: 40px;"><b>Projects</b> (click image for GitHub)</p>
+<p style="font-size: 40px;"><b>Projects</b> <i>(click image for GitHub)</i></p>
 
 <hr>
 
