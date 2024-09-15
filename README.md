@@ -52,7 +52,8 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
 
 <br>
-<p style="font-size: 40px;"><b>Projects (click on image for GitHub)</b></p>
+<p style="font-size: 40px;"><b>Projects</b></p><p style="font-size: 30px;">(click on image for GitHub)</p>
+
 <hr>
 
 <p style="font-size: 24px;"><b><u>Automating Data Science Pipelines with Tensor Completion</u></b></p>
