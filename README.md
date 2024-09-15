@@ -51,12 +51,29 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Spotline, inc.</em></p>
 
+<br>
+<p style="font-size: 36px;"><b>Projects (click on image for GitHub)</b></p>
+<hr>
 
-<a href="https://github.com/shaanpakala/LLM_text_classification" target="_blank">
-  <img align="left" width="211" src="images/wiki_viz.png">
+<p style="font-size: 24px;"><b><u>Image Segmentation</u></b></p>
+
+<a href="https://github.com/shaanpakala/random_image_segmentations" target="_blank">
+  <img align="left" width="225" height="125" src="images/image_segmentation.png">
 </a>
 
+<p style="font-size: 24px;">Some image segmentation projects I have worked on, mainly to familiarize myself with modern computer vision techniques. Overall, I learned how to develop a U-Net architecture with skip connections using PyTorch. I also learned some image processing techniques using OpenCV.</p>
 
+<br clear="all"><br>
+
+<p style="font-size: 24px;"><b><u>Wikipedia Article Visualization & Classification</u></b></p>
+
+<a href="https://github.com/shaanpakala/LLM_text_classification" target="_blank">
+  <img align="left" width="225" height="125" src="images/wiki_viz.png">
+</a>
+
+<p style="font-size: 24px;">Webscraped Wikipedia articles of various categories, and then converted them to hidden states using Google's pretrained BERT model. From here I just compressed each text input's 2D hidden state to a vector of size 2, so I could plot it on a scatter plot. This highlighted the different in articles of different categories, and the similaries of those in the same category. From here, topic classification was relatively trivial.</p>
+
+<br clear="all">
 
 <hr>
 <p style="font-size: 16px;"><i>Last Updated September 14, 2024</i></p>
