@@ -14,7 +14,7 @@
 </a>
 
 <br>
-<p style="font-size: 36px;"><b>Education</b></p>
+<p style="font-size: 40px;"><b>Education</b></p>
 <hr>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
@@ -24,7 +24,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <br>
-<p style="font-size: 36px;"><b>Experience</b></p>
+<p style="font-size: 40px;"><b>Experience</b></p>
 <hr>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
@@ -52,7 +52,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
 
 <br>
-<p style="font-size: 36px;"><b>Projects (click on image for GitHub)</b></p>
+<p style="font-size: 40px;"><b>Projects (click on image for GitHub)</b></p>
 <hr>
 
 <p style="font-size: 24px;"><b><u>Automating Data Science Pipelines with Tensor Completion</u></b></p>
