@@ -14,7 +14,7 @@
 </a>
 
 <br>
-<p style="font-size: 40px;"><b>Education</b></p>
+<p style="font-size: 50px;"><b>Education</b></p>
 <hr>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
@@ -24,7 +24,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.ucr.edu/">University of California, Riverside</a></em></p>
 
 <br>
-<p style="font-size: 40px;"><b>Experience</b></p>
+<p style="font-size: 50px;"><b>Experience</b></p>
 <hr>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
@@ -52,7 +52,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
 
 <br>
-<p style="font-size: 40px;"><b>Projects</b> <i>(click image for GitHub)</i></p>
+<p style="font-size: 50px;"><b>Projects</b> <i>(click image for GitHub)</i></p>
 
 <hr>
 
