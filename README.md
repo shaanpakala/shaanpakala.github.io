@@ -61,7 +61,7 @@
   <img align="left" width="225" height="125" src="images/autoML_pic.png">
 </a>
 
-<p style="font-size: 20px;">Submitted paper as first author to IEEE Big Data 2024 (under review). This project was funded by the National Science Foundation Research Experience for Undergraduates program, during Summer 2024. Here I worked under UC Riverside Professors, in collaboration with Ph.D. & B.S. students, to research automatic and efficient hyperparameter optimization using <a href="https://www.columbia.edu/~my2550/talks/tensortalk2.pdf">tensor completion</a> algorithms.</p>
+<p style="font-size: 20px;">Submitted paper as first author to IEEE Big Data 2024 (under review). This project was funded by the <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> program during Summer 2024. Here I worked under UC Riverside Professors, in collaboration with Ph.D. & B.S. students, to research automatic and efficient hyperparameter optimization using <a href="https://www.columbia.edu/~my2550/talks/tensortalk2.pdf">tensor completion</a> algorithms.</p>
 
 <br clear="all"><br>
 
