@@ -21,7 +21,7 @@
   <span><b>Data Science & Engineering, B.S.</b></span>
   <span style="text-align: right;">September 2021 - June 2025</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.ucr.edu/">University of California, Riverside</a></em></p>
 
 <br>
 <p style="font-size: 40px;"><b>Experience</b></p>
@@ -52,7 +52,7 @@
 <p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
 
 <br>
-<p style="font-size: 40px;"><b>Projects</b></p><p style="font-size: 30px;">(click on image for GitHub)</p>
+<p style="font-size: 40px;"><b>Projects</b> (click image for GitHub)</p>
 
 <hr>
 
