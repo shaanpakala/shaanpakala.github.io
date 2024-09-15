@@ -51,5 +51,12 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Spotline, inc.</em></p>
 
+
+<a href="https://github.com/shaanpakala/LLM_text_classification" target="_blank">
+  <img align="left" width="211" src="images/wiki_viz.png">
+</a>
+
+
+
 <hr>
 <p style="font-size: 16px;"><i>Last Updated September 14, 2024</i></p>
