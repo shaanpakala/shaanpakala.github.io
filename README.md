@@ -49,7 +49,7 @@
   <span><b>Data Science Summer Camp Mentor</b></span>
   <span style="text-align: right;">Summer 2022</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em>Spotline, inc.</em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>Spotline, Inc.</em></p>
 
 <br>
 <p style="font-size: 36px;"><b>Projects (click on image for GitHub)</b></p>
