@@ -65,6 +65,16 @@
 
 <br clear="all"><br>
 
+<p style="font-size: 24px;"><b><u>Solving Problems in Cardiology with Machine Learning</u></b></p>
+
+<a href="https://github.com/shaanpakala/cardiac_challenge_team6" target="_blank">
+  <img align="left" width="225" height="125" src="images/cardiac_challenge_pic.png">
+</a>
+
+<p style="font-size: 20px;">At the Lawrence Livermore National Laboratory <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">2023 Data Science Challenge</a>, I worked in a team to develop data driven solutions to problems in cardiology. This included automated heart disease classification, as well as a 3D reconstruction of human heart activity over 500ms, using solely non-invasive electrocardiogram data.</p>
+
+<br clear="all"><br>
+
 <p style="font-size: 24px;"><b><u>Simulated Online Store Database</u></b></p>
 
 <a href="https://github.com/shaanpakala/amazon_store_db" target="_blank">
