@@ -21,7 +21,7 @@
   <span><b>Data Science & Engineering, B.S.</b></span>
   <span style="text-align: right;">September 2021 - June 2025</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.ucr.edu/">University of California, Riverside</a></em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <br>
 <p style="font-size: 50px;"><b>Experience</b></p>
@@ -31,25 +31,25 @@
   <span><b>Bioinformatics Research Assistant</b></span>
   <span style="text-align: right;">March 2024 - Present</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.ucr.edu/">University of California, Riverside</a></em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 28px;">
-  <span><b>Data Science Research Intern</b></span>
+  <span><b><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> Data Science Researcher</b></span>
   <span style="text-align: right;">Summer 2024</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.ucr.edu/">University of California, Riverside</a></em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 28px;">
   <span><b>Data Science Fellow</b></span>
   <span style="text-align: right;">Summer 2023</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a></em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 28px;">
   <span><b>Data Science Summer Camp Mentor</b></span>
   <span style="text-align: right;">Summer 2022</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em><a href="https://spotline.com/">Spotline, Inc.</a></em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>Spotline, Inc.</em></p>
 
 <br>
 <p style="font-size: 50px;"><b>Projects</b> <i>(click image for GitHub)</i></p>
