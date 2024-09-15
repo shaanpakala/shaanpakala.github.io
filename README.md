@@ -33,19 +33,19 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 36px;">
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> Data Science Research Intern</b></span>
   <span style="text-align: right;">Summer 2024</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 36px;">
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b>Data Science Fellow</b></span>
   <span style="text-align: right;">Summer 2023</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 36px;">
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b>Data Science Summer Camp Mentor</b></span>
   <span style="text-align: right;">Summer 2022</span>
 </p>
