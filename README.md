@@ -55,13 +55,24 @@
 <p style="font-size: 36px;"><b>Projects (click on image for GitHub)</b></p>
 <hr>
 
+<p style="font-size: 24px;"><b><u>Online Store Database</u></b></p>
+
+<a href="https://github.com/shaanpakala/amazon_store_db" target="_blank">
+  <img align="left" width="225" height="125" src="images/store_db_picture.png">
+</a>
+
+<p style="font-size: 20px;">Final Project for Database Management Systems (CS166 at UC Riverside). Here I worked in a team of 2 to implement a relational database for a simulated online store (e.g. Amazon online store), using PostgreSQL & Java for UI. This included 5 tables, as well as implementing triggers and indexes for improved efficiency. Customer, manager, and admin functions were also implemented to simulate a real online store experience.</p>
+
+<br clear="all"><br>
+
+
 <p style="font-size: 24px;"><b><u>Image Segmentation</u></b></p>
 
 <a href="https://github.com/shaanpakala/random_image_segmentations" target="_blank">
   <img align="left" width="225" height="125" src="images/image_segmentation.png">
 </a>
 
-<p style="font-size: 24px;">Some image segmentation projects I have worked on, mainly to familiarize myself with modern computer vision techniques. Overall, I learned how to develop a U-Net architecture with skip connections using PyTorch. I also learned some image processing techniques using OpenCV.</p>
+<p style="font-size: 20px;">Some image segmentation projects I have worked on, mainly to familiarize myself with modern computer vision techniques. Overall, I learned how to develop a U-Net architecture with skip connections using PyTorch. I also learned some image processing techniques using OpenCV.</p>
 
 <br clear="all"><br>
 
@@ -71,7 +82,7 @@
   <img align="left" width="225" height="125" src="images/wiki_viz.png">
 </a>
 
-<p style="font-size: 24px;">Webscraped Wikipedia articles of various categories, and then converted them to hidden states using Google's pretrained BERT model. From here I just compressed each text input's 2D hidden state to a vector of size 2, so I could plot it on a scatter plot. This highlighted the different in articles of different categories, and the similaries of those in the same category. From here, topic classification was relatively trivial.</p>
+<p style="font-size: 20px;">Webscraped Wikipedia articles of various categories, and then converted them to hidden states using Google's pretrained BERT model. From here I just compressed each text input's 2D hidden state to a vector of size 2, so I could plot it on a scatter plot. This highlighted the different in articles of different categories, and the similaries of those in the same category. From here, topic classification was relatively trivial.</p>
 
 <br clear="all">
 
