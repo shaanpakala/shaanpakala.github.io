@@ -107,7 +107,7 @@
 
 <br clear="all">
 
-<p style="font-size: 24px;"><b><u>Online Reviews Sentiment Classification</u></b></p>
+<p style="font-size: 24px;"><b><u>Online Reviews Sentiment Analysis</u></b></p>
 
 <a href="https://github.com/shaanpakala/sentiment_classification" target="_blank">
   <img align="left" width="225" height="125" src="images/sentiment_classification_pic.png">
