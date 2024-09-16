@@ -93,7 +93,7 @@
   <img align="left" width="225" height="125" src="images/image_segmentation.png">
 </a>
 
-<p style="font-size: 20px;">Some image segmentation projects I have worked on, mainly to familiarize myself with modern computer vision techniques. Overall, I learned how to develop a U-Net architecture with skip connections using PyTorch. I also learned some image processing techniques using OpenCV.</p>
+<p style="font-size: 20px;">Some image segmentation projects I have worked on, mainly to familiarize myself with modern computer vision techniques. Overall, I learned how to develop a <a href="https://en.wikipedia.org/wiki/U-Net" target="_blank">U-Net</a> architecture with skip connections using PyTorch. I also learned some image processing techniques using OpenCV.</p>
 
 <br clear="all"><br>
 
@@ -103,7 +103,7 @@
   <img align="left" width="225" height="125" src="images/wiki_viz.png">
 </a>
 
-<p style="font-size: 20px;">Webscraped Wikipedia articles of several categories, and then converted them to hidden states using Google's BERT. From here, I compressed each text input's 2D hidden state to a vector of size 2 for a scatter plot visualization. This highlighted the different in articles of different categories, and the similaries of those in the same category. From here, topic classification was relatively trivial.</p>
+<p style="font-size: 20px;">Webscraped Wikipedia articles of several categories, and then converted them to hidden states using Google's <a href="https://en.wikipedia.org/wiki/BERT_(language_model)" target="_blank">BERT</a>. From here, I compressed each text input's 2D hidden state to a vector of size 2 for a scatter plot visualization. This highlighted the different in articles of different categories, and the similaries of those in the same category. From here, topic classification was relatively trivial.</p>
 
 <br clear="all">
 
