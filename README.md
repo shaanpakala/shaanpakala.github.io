@@ -107,5 +107,18 @@
 
 <br clear="all">
 
+<p style="font-size: 24px;"><b><u>Online Reviews Sentiment Classification</u></b></p>
+
+<a href="https://github.com/shaanpakala/sentiment_classification" target="_blank">
+  <img align="left" width="225" height="125" src="images/sentiment_classification_pic.png">
+</a>
+
+<p style="font-size: 20px;">Webscraped online reviews (<a href="https://www.yelp.com/" target="_blank">yelp</a> & <a href="https://www.yellowpages.com/" target="_blank">yp</a>) to build a machine learning model to classifiy online reviews' sentiments. The bulk of the work was done in preprocessing the text, as well as vectorizing the text in a way that makes it easy for the machine learning model to classify.</p>
+
+<br clear="all">
+
+
+
+
 <hr>
 <p style="font-size: 16px;"><i>Last Updated September 14, 2024</i></p>
