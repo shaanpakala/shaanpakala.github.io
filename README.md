@@ -1,7 +1,8 @@
-<a href="#Education">Education</a>
-<a href="#Experience">Experience</a>
-<a href="#Projects">Projects</a>
-
+<p style="font-size: 24px;">
+  <a href="#Education">Education</a>
+  <a href="#Experience">Experience</a>
+  <a href="#Projects">Projects</a>
+</p>
 
 <img align="left" width="211" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
