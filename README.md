@@ -1,6 +1,6 @@
 <p style="font-size: 24px; text-align: center;">
-  <a href="#Education">Education</a>
-  <a href="#Experience">Experience</a>
+  <a href="#Education">Education</a>&#9;
+  <a href="#Experience">Experience</a>&#9;
   <a href="#Projects">Projects</a>
 </p>
 <hr>
