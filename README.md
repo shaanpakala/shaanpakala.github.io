@@ -38,6 +38,12 @@
 </section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Data Science Research Assistant</b></span>
+  <span style="text-align: right;">September 2024 - Present</span>
+</p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Bioinformatics Research Assistant</b></span>
   <span style="text-align: right;">March 2024 - Present</span>
 </p>
