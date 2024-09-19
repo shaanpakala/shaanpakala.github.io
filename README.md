@@ -16,7 +16,7 @@
 
 <img align="left" width="211" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am a fourth year <a href="https://datascience.ucr.edu/">Data Science & Engineering</a> (B.S.) student at the University of California, Riverside. During my time here, I have been a <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> data science research intern with Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, & <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>, as well as a participant in the Lawrence Livermore National Laboratory <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">2023 Data Science Challenge</a>. Currently, I am working as a bioinformatics research assistant with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
+  Hello! My name is Shaan Pakala. I am a fourth year <a href="https://datascience.ucr.edu/">Data Science & Engineering</a> (B.S.) student at the University of California, Riverside. During my time here, I have been a <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> data science research intern with Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, & <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>. Currently, I am working as a bioinformatics research assistant with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
 </p>
 
 <section id="Education">
@@ -50,7 +50,9 @@
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
-  <span><b>Data Science Fellow</b></span>
+  <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
+  <span><b>Data Science Challenge</b></span>
+  </a>
   <span style="text-align: right;">Summer 2023</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
