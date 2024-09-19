@@ -2,8 +2,11 @@
 
 <p style="font-size: 24px; text-align: center;"><b>
   <a href="https://shaanpakala.github.io/resume.pdf" target="_blank">Resume</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">LinkedIn</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/shaanpakala" target="_blank">GitHub</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://shaanpakala.github.io/Projects/" target="_blank">Projects</a>
 </b></p>
 
