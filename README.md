@@ -59,8 +59,7 @@
   <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
   <span><b>
     <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
-    Data Science Challenge
-    </a>
+      Data Science Challenge</a>
     Intern
   </b></span>
   <span style="text-align: right;">Summer 2023</span>
