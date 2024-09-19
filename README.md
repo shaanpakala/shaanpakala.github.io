@@ -1,4 +1,6 @@
 <a href="#Education">Education</a>
+<a href="#Experience">Experience</a>
+<a href="#Projects">Projects</a>
 
 
 <img align="left" width="211" src="images/picture_of_me.jpg">
@@ -28,10 +30,11 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-
+<section id="Experience">
 <br>
 <p style="font-size: 50px;"><b>Experience</b></p>
 <hr>
+</section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Bioinformatics Research Assistant</b></span>
@@ -57,10 +60,11 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Spotline, Inc.</em></p>
 
+<section id="Projects">
 <br>
 <p style="font-size: 50px;"><b>Projects</b> <i>(click image for GitHub)</i></p>
-
 <hr>
+</section>
 
 <p style="font-size: 24px;"><b><u>Automating Data Science Pipelines with Tensor Completion</u></b></p>
 
