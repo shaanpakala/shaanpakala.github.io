@@ -1,4 +1,4 @@
-<p style="font-size: 24px;">
+<p style="font-size: 24px; text-align: center;">
   <a href="#Education">Education</a>
   <a href="#Experience">Experience</a>
   <a href="#Projects">Projects</a>
