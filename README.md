@@ -1,4 +1,4 @@
-# Shaan Pakala
+#
 
 <img align="left" width="211" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
