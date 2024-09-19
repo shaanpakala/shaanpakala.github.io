@@ -1,9 +1,11 @@
 <p style="font-size: 28px; text-align: center;">
+  <b>
   <a href="#Education">Education</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#Experience">Experience</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#Projects">Projects</a>
+  </b>
 </p>
 <hr>
 
