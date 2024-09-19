@@ -9,7 +9,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://shaanpakala.github.io/Projects/" target="_blank">Projects</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="shaan.pakala@gmail.com" target="_blank">Email</a>
+  <a href="mailto:shaan.pakala@gmail.com">Email</a>
 </b></p>
 
 <hr>
