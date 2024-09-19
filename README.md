@@ -8,6 +8,8 @@
   <a href="https://github.com/shaanpakala" target="_blank">GitHub</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://shaanpakala.github.io/Projects/" target="_blank">Projects</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="shaan.pakala@gmail.com" target="_blank">Email</a>
 </b></p>
 
 <hr>
