@@ -1,3 +1,6 @@
+<a href="#Education">Education</a>
+
+
 <img align="left" width="211" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
   Hello! My name is Shaan Pakala. I am a fourth year <a href="https://datascience.ucr.edu/">Data Science & Engineering</a> (B.S.) student at the University of California, Riverside. During my time here, I have been a <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> data science research intern with Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, & <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>, as well as a participant in the Lawrence Livermore National Laboratory <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">2023 Data Science Challenge</a>. Currently, I am working as a Bioinformatics Research Assistant with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
@@ -13,15 +16,18 @@
   <img src="images/git_logo.png" alt="GitHub" style="width: 26px; height: 27px;">
 </a>
 
+<section id="Education">
 <br>
 <p style="font-size: 50px;"><b>Education</b></p>
 <hr>
+</section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Data Science & Engineering, B.S.</b></span>
   <span style="text-align: right;">September 2021 - June 2025</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+
 
 <br>
 <p style="font-size: 50px;"><b>Experience</b></p>
