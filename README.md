@@ -57,8 +57,12 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
-  <span><b>Data Science Challenge</b></span>
-  </a>
+  <span><b>
+    <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
+    Data Science Challenge
+    </a>
+    Intern
+  </b></span>
   <span style="text-align: right;">Summer 2023</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
