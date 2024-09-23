@@ -14,7 +14,13 @@
 
 <hr>
 
-<img align="left" width="237" max-width:25% src="images/picture_of_me.jpg">
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  width: 237px;
+}
+
+<img class="responsive-image" align="left" src="images/picture_of_me.jpg" alt="Picture of me">
 <p style="font-size: 24px;">
   Hello! My name is Shaan Pakala. I am a fourth year <a href="https://datascience.ucr.edu/">Data Science & Engineering</a> (B.S.) student at the University of California, Riverside. During my time here, I have been an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> summer research intern, which resulted in a first author paper submission to <a href="https://www3.cs.stonybrook.edu/~ieeebigdata2024/" target="_blank">IEEE Big Data 2024</a> (under review). This was under the supervision of Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, and <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>, and we are now working on extending this work. I am also currently a bioinformatics research assistant with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
 </p>
