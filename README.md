@@ -1,6 +1,6 @@
 # Shaan Pakala
 
-<p style="font-size: 1rem; text-align: center;"><b>
+<p style="font-size: 2rem; text-align: center;"><b>
   <a href="https://shaanpakala.github.io/resume.pdf" target="_blank">Resume</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">LinkedIn</a>
