@@ -98,7 +98,7 @@
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated September 22, 2024</i></p>
+<p style="font-size: 16px;"><i>Last updated September 23, 2024</i></p>
 
 
 </div>
