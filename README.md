@@ -12,15 +12,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-  .container {
-    width: 960px;
-    margin: 0 auto;
-    overflow: auto;
-  }
-</style>
-
-
 <div class="container">
   
 <p style="font-size: 24px; text-align: center;"><b>
