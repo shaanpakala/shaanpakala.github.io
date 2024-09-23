@@ -1,4 +1,4 @@
-# Shaan Pakala updated!!
+# Shaan Pakala
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4HHP6LBJ6"></script>
@@ -12,7 +12,7 @@
 
 <style>
   .container {
-/*     width: device-width; */
+    width: 960px;
     margin: 0 auto;
     overflow: auto;
   }
