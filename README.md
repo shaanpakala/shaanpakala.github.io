@@ -18,7 +18,7 @@
 
 
 .responsive-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   width: 237px;
 }
