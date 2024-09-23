@@ -10,6 +10,8 @@
   gtag('config', 'G-N4HHP6LBJ6');
 </script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
   .container {
     width: 960px;
