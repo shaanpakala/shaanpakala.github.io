@@ -1,5 +1,16 @@
 # Shaan Pakala
 
+<style>
+  .container {
+    width: 800px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+</style>
+
+
+<div class="container">
+  
 <p style="font-size: 24px; text-align: center;"><b>
   <a href="https://shaanpakala.github.io/resume.pdf" target="_blank">Resume</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -74,7 +85,8 @@
 <br clear="all">
 
 
-
-
 <hr>
-<p style="font-size: 16px;"><i>Last updated September 19, 2024</i></p>
+<p style="font-size: 16px;"><i>Last updated September 22, 2024</i></p>
+
+
+</div>
