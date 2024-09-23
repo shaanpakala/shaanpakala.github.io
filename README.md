@@ -51,6 +51,8 @@
   }
 </style>
 
+# Shaan Pakala
+
 <div class="container">
   <div class="nav-links">
     <a href="https://shaanpakala.github.io/resume.pdf" target="_blank">Resume</a>
