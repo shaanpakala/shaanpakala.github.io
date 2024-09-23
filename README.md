@@ -14,7 +14,7 @@
 
 <hr>
 
-<img align="left" src="images/picture_of_me.jpg" style = "width:25%;>
+<img align="left" src="images/picture_of_me.jpg" style = "width:25%;">
 
 
 <p style="font-size: 24px;">
