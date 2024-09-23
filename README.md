@@ -22,7 +22,7 @@
   }
   
   .profile-img {
-    width: 100%;
+    width: 25%;
     max-width: 250px;
     height: auto;
   }
