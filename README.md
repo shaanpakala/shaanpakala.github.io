@@ -2,7 +2,7 @@
 
 <style>
   .container {
-    width: 800px;
+    width: 1440px;
     margin: 0 auto;
     overflow: auto;
   }
