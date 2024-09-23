@@ -72,7 +72,7 @@
       Data Science Challenge</a>
     Intern
   </b></span>
-  <span style="text-align: right;">Summer 2023</span>
+  <span style="text-align: right;">July 2023</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
