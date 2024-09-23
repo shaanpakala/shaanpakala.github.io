@@ -7,7 +7,7 @@
   }
 
   .container {
-    width: 750px;
+    width: 700px;
     height: 400px;
     margin: 0 auto;
     overflow: auto;
