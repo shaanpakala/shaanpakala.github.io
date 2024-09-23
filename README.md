@@ -7,8 +7,8 @@
   }
 
   .container {
-    width: 500px;
-    height: 1000px;
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
     overflow: auto;
   }
