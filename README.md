@@ -1,6 +1,6 @@
 <style>
   .nav-links {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
