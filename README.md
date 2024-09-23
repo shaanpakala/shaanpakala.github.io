@@ -2,7 +2,7 @@
 
 <style>
   .container {
-    width: 980px;
+    width: 960px;
     margin: 0 auto;
     overflow: auto;
   }
@@ -50,19 +50,19 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Data Science Research Assistant</b></span>
-  <span style="text-align: right;">September 2024 - Present  </span>
+  <span style="text-align: right;">September 2024 - Present</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b>Bioinformatics Research Assistant</b></span>
-  <span style="text-align: right;">March 2024 - Present  </span>
+  <span style="text-align: right;">March 2024 - Present</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> Data Science Research Intern</b></span>
-  <span style="text-align: right;">Summer 2024  </span>
+  <span style="text-align: right;">Summer 2024</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
@@ -72,13 +72,13 @@
       Data Science Challenge</a>
     Intern
   </b></span>
-  <span style="text-align: right;">Summer 2023  </span>
+  <span style="text-align: right;">Summer 2023</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b>Data Science Summer Camp Mentor</b></span>
-  <span style="text-align: right;">Summer 2022  </span>
+  <span style="text-align: right;">Summer 2022</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Spotline, Inc.</em></p>
 
