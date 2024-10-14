@@ -85,17 +85,11 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
-  <span><b>Data Science Summer Camp Mentor</b></span>
-  <span style="text-align: right;">Summer 2022</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>Spotline, Inc.</em></p>
-
 <br clear="all">
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated October 9, 2024</i></p>
+<p style="font-size: 16px;"><i>Last updated October 14, 2024</i></p>
 
 
 </div>
