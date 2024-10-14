@@ -41,8 +41,10 @@
 
 <br clear="all">
 
-<p style="font-size: 24px;">My <a href="mailto:shaan.pakala@gmail.com">Email</a>.</p>
-<p style="font-size: 24px;">My <a href="https://shaanpakala.github.io/resume.pdf">Resume</a>.</p>
+<p style="font-size: 20px;">My <a href="mailto:shaan.pakala@gmail.com">Email</a>.</p>
+<p style="font-size: 20px;">My <a href="https://shaanpakala.github.io/resume.pdf">Resume</a>.</p>
+
+<br clear="all">
 
 <section id="Education">
 <br>
