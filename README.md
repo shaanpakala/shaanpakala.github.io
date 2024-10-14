@@ -41,7 +41,7 @@
 <br clear="all">
 
 <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">
-  <img align="left" width="50" height="50" src="images/linkedin_logo.png">
+  <img align="left" width="25" height="25" src="images/linkedin_logo.png">
 </a>
 
 
