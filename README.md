@@ -19,14 +19,6 @@
 </style>
 
 <div class="container">
-  
-<p style="font-size: 24px; text-align: center;"><b>
-  <a href="https://shaanpakala.github.io/resume.pdf" target="_blank">Resume</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:shaan.pakala@gmail.com">Email</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://shaanpakala.github.io/Projects/" target="_blank">Projects</a>
-</b></p>
 
 <hr>
 
