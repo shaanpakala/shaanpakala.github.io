@@ -41,9 +41,6 @@
 <!-- <br clear="all"> -->
 
 <div style="margin-top 10px;">
-<a href="https://shaanpakala.github.io/resume.pdf" target="_blank">
-  <img align="left" width="25" height="25" src="images/resume_logo.png">
-</a>
 <a href="https://https://github.com/shaanpakala" target="_blank">
   <img align="left" width="25" height="25" src="images/git_logo.png">
 </a>
