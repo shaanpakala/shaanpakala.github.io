@@ -31,7 +31,6 @@
   </p>
 </div>
 
-<br clear="all">
 
 <div style="margin-top 2px;">
 <a href="https://https://github.com/shaanpakala" target="_blank">
