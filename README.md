@@ -25,6 +25,14 @@
   Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have been an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> summer research intern, which resulted in a <a href="https://arxiv.org/abs/2410.06408">first-author paper</a> submission to IEEE Big Data 2024 (under review). This was under the supervision of Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, and <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>. We are now working to extend this research. I am also currently a bioinformatics research assistant with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
 </p>
 
+<div style="margin-top 7px;">
+  <p style="font-size: 20px;">
+    My <a href="mailto:shaan.pakala@gmail.com">email</a> & <a href="https://shaanpakala.github.io/resume.pdf">resume</a>.
+  </p>
+</div>
+
+<br clear="all">
+
 <div style="margin-top 2px;">
 <a href="https://https://github.com/shaanpakala" target="_blank">
   <img align="left" width="25" height="25" src="images/git_logo.png">
@@ -35,14 +43,6 @@
 <!-- <a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
   <img align="left" width="25" height="25" src="images/google_scholar.png">
 </a> -->
-</div>
-
-<br clear="all">
-
-<div style="margin-top 7px;">
-  <p style="font-size: 20px;">
-    My <a href="mailto:shaan.pakala@gmail.com">email</a> & <a href="https://shaanpakala.github.io/resume.pdf">resume</a>.
-  </p>
 </div>
 
 <br clear="all">
