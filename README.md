@@ -33,7 +33,7 @@
 
 
 <div style="margin-top 2px;">
-<a href="https://https://github.com/shaanpakala" target="_blank">
+<a href="https://github.com/shaanpakala" target="_blank">
   <img align="left" width="25" height="25" src="images/git_logo.png">
 </a>
 <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">
