@@ -58,14 +58,14 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-<section id="Publication">
+<section id="Paper">
 <br>
 <p style="font-size: 50px;"><b>Publication</b></p>
 <hr>
 </section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><u>S. Pakala</u>, B. Graw, D. Ahn, T. Dinh, V. Tsotras, J. Chen, and E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <b>IEEE International Conference on Big Data 2024</b>, Washington, D.C. </span>
+  <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, V. Tsotras, J. Chen, and E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <b>IEEE International Conference on Big Data 2024</b>, Washington, D.C. </span>
 </p>
 
 <section id="Experience">
