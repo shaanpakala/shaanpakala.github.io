@@ -33,11 +33,11 @@
 
 
 <div style="margin-top 2px;">
-  <a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
-    <img align="left" width="25" height="25" src="images/google_scholar.png">
-  </a>
   <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">
     <img align="left" width="25" height="25" src="images/linkedin_logo.png">
+  </a>
+  <a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
+    <img align="left" width="25" height="25" src="images/google_scholar.png">
   </a>
   <a href="https://github.com/shaanpakala" target="_blank">
     <img align="left" width="25" height="25" src="images/git_logo.png">
