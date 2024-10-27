@@ -58,9 +58,9 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-<section id="Paper">
+<section id="Publication">
 <br>
-<p style="font-size: 50px;"><b>Paper</b></p>
+<p style="font-size: 50px;"><b>Publication</b></p>
 <hr>
 </section>
 
