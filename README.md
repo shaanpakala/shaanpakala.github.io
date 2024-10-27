@@ -70,7 +70,7 @@
 
 <section id="Experience">
 <br>
-<p style="font-size: 50px;"><b>Experience</b></p>
+<p style="font-size: 50px;"><b>Work Experience</b></p>
 <hr>
 </section>
 
