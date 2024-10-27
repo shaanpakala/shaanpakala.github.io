@@ -64,8 +64,8 @@
 <hr>
 </section>
 
-<p style="font-size: 20px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Shaan Pakala</b>, B. Graw, D. Ahn, T. Dinh, V. Tsotras, J. Chen, and E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data 2024</i>.</span>
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Shaan Pakala</b>, B. Graw, D. Ahn, T. Dinh, V. Tsotras, J. Chen, E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data 2024</i>.</span>
 </p>
 
 <section id="Experience">
