@@ -39,9 +39,9 @@
 <a href="https://www.linkedin.com/in/shaan-pakala-b91024210/" target="_blank">
   <img align="left" width="25" height="25" src="images/linkedin_logo.png">
 </a>
-<!-- <a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
+<a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
   <img align="left" width="25" height="25" src="images/google_scholar.png">
-</a> -->
+</a>
 </div>
 
 <br clear="all">
@@ -96,7 +96,7 @@
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated October 21, 2024</i></p>
+<p style="font-size: 16px;"><i>Last updated October 26, 2024</i></p>
 
 
 </div>
