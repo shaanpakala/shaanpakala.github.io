@@ -44,8 +44,8 @@
   </a>
 </div>
 
-<section id="Education">
 <br>
+<section id="Education">
 <p style="font-size: 50px;"><b>Education</b></p>
 <hr>
 </section>
