@@ -42,11 +42,13 @@
   <a href="https://scholar.google.com/citations?user=UjR-nicAAAAJ&hl=en&oi=ao" target="_blank">
     <img align="left" width="25" height="25" src="images/google_scholar.png">
   </a>
+  <br>
 </div>
 
 
 <section id="Education">
 <br>
+  
 <p style="font-size: 50px;"><b>Education</b></p>
 <hr>
 </section>
