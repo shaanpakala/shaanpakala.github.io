@@ -22,7 +22,7 @@
 
 <img align="left" width="200" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have worked on various research projects, including my IEEE BigData conference <a href="https://arxiv.org/abs/2410.06408">paper</a>.
+  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have worked on various research projects, including my IEEE BigData'24 conference <a href="https://arxiv.org/abs/2410.06408">paper</a>.
 
   <br clear="all">
 
