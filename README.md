@@ -75,7 +75,7 @@
 
 <section id="Experience">
 <br>
-<p style="font-size: 50px;"><b>Work Experience</b></p>
+<p style="font-size: 50px;"><b>Experience</b></p>
 <hr>
 </section>
 
@@ -111,7 +111,7 @@
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated December 18, 2024</i></p>
+<p style="font-size: 16px;"><i>Last updated January 6, 2025</i></p>
 
 
 </div>
