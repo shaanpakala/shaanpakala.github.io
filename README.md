@@ -22,7 +22,7 @@
 
 <img align="left" width="237" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have been an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> summer research intern, which resulted in a <a href="https://arxiv.org/abs/2410.06408">first-author paper</a> accepted to IEEE Big Data 2024. This was under the supervision of Professors <a href="https://www.cs.ucr.edu/~epapalex/">Vagelis Papalexakis</a>, <a href="https://sites.google.com/view/jiachen-research/home">Jia Chen</a>, and <a href="https://www.cs.ucr.edu/~tsotras/">Vassilis Tsotras</a>. We are now working to extend this research. I also work on bioinformatics research problems using machine learning with Professor <a href="https://www.cs.ucr.edu/~stelo/">Stefano Lonardi</a>.
+  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have worked on various research projects, including my first-author <a href="https://arxiv.org/abs/2410.06408">paper</a> at IEEE Big Data 2024.
 </p>
 
 <div style="margin-top 7px;">
@@ -85,7 +85,7 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
   <span><b>Bioinformatics Research Assistant</b></span>
-  <span style="text-align: right;">March 2024 - Present</span>
+  <span style="text-align: right;">March 2024 - December 2024</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
