@@ -112,7 +112,7 @@
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated January 6, 2025</i></p>
+<p style="font-size: 16px;"><i>Last updated January 16, 2025</i></p>
 
 
 </div>
