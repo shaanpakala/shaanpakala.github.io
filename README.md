@@ -64,14 +64,23 @@
 
 <br clear="all">
 
-<section id="Publication">
+<section id="Papers">
 <br>
-<p style="font-size: 50px;"><b>Publication</b></p>
+<p style="font-size: 50px;"><b>Papers</b></p>
 <hr>
 </section>
 
+<p style="font-size: 32px;"><b>Full Conference Paper</b></p>
+
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data 2024</i>. <b>Received Student Travel Award</b>. [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
+</p>
+
+
+<p style="font-size: 32px;"><b>Poster</b></p>
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI 2025 Knowledge-Guided Machine Learning (KGML) Bridge Program</i>. [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
 </p>
 
 <section id="Experience">
