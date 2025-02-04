@@ -76,6 +76,14 @@
   <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data 2024</i>. <b>Received Student Travel Award</b>. [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
 </p>
 
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
+  <span>Automating Data Science Pipelines with Tensor Completion [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
+
+  <span><u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos E. Papalexakis</span>
+
+  <span>IEEE International Conference on Big Data 2024</span>
+</p>
+
 
 <p style="font-size: 28px;"><b>Poster</b></p>
 
