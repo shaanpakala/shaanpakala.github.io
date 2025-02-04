@@ -77,11 +77,11 @@
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span>Automating Data Science Pipelines with Tensor Completion [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
+  <span>Automating Data Science Pipelines with Tensor Completion [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]
 
-  <span><u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos E. Papalexakis</span>
+  <u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos E. Papalexakis
 
-  <span>IEEE International Conference on Big Data 2024</span>
+  IEEE International Conference on Big Data 2024</span>
 </p>
 
 
