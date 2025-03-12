@@ -22,7 +22,7 @@
 
 <img align="left" width="205" src="images/picture_of_me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering (B.S.) student at the University of California, Riverside. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently I work on interdisciplinary applications of matrix/tensor factorization.
+  Hello! My name is Shaan Pakala. I am a fourth year Data Science & Engineering undergraduate student at the University of California, Riverside. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently, I work on interdisciplinary applications of matrix/tensor factorization.
 
   <br clear="all">
 
@@ -85,7 +85,7 @@
 
 <section id="Experience">
 <br>
-<p style="font-size: 50px;"><b>Experience</b></p>
+<p style="font-size: 50px;"><b>Research Experience</b></p>
 <hr>
 </section>
 
@@ -106,16 +106,6 @@
   <span style="text-align: right;">Summer 2024</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
-
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
-  <span><b>
-    <a href="https://www.llnl.gov/article/50051/uc-merced-uc-riverside-tackle-data-science-challenge-machine-learning-assisted-heart">
-      Data Science Challenge</a>
-    Intern
-  </b></span>
-  <span style="text-align: right;">July 2023</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
 <br clear="all">
 
