@@ -30,7 +30,7 @@
 
 <div style="margin-top 7px;">
   <p style="font-size: 20px;">
-    My <a href="mailto:shaan.pakala@gmail.com">email</a> & <a href="https://shaanpakala.github.io/resume.pdf">resume</a>.
+    My <a href="mailto:shaan.pakala@gmail.com">email</a> & <a href="https://shaanpakala.github.io/Shaan_Pakala_CV.pdf">CV</a>.
   </p>
 </div>
 
