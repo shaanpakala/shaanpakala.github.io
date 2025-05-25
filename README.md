@@ -20,9 +20,9 @@
 
 <div class="container">
 
-<img align="left" width="255" src="images/me.jpg">
+<img align="left" width="260" src="images/me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am a Data Science & Engineering undergraduate student at the University of California, Riverside. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently, I work on interdisciplinary research applications of matrix/tensor decomposition.
+  Hello! My name is Shaan Pakala. I am a Data Science & Engineering undergraduate student at the University of California, Riverside. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently, I work on interdisciplinary research applications of tensor decomposition, mainly for surrogate modeling.
 
   <br clear="all">
 
