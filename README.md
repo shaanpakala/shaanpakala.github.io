@@ -22,7 +22,7 @@
 
 <img align="left" width="290" src="images/me.jpg">
 <p style="font-size: 24px;">
-  Hello! My name is Shaan Pakala. I am an incoming Computer Science Ph.D. student at the University of California, Riverside, where I also completed my undergrad. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently, I work on interdisciplinary research applications of tensor decomposition, mainly for surrogate modeling.
+  Hello! My name is Shaan Pakala. I am an incoming Computer Science Ph.D. student at the University of California, Riverside, where I also completed my undergraduate degree. During my time here, I have worked on various machine learning & data mining research projects, mainly with <a href="https://www.cs.ucr.edu/~epapalex/">Professor Vagelis Papalexakis</a>, including an IEEE BigData full conference <a href="https://ieeexplore.ieee.org/document/10825934">paper</a>. Currently, I work on interdisciplinary research applications of tensor decomposition, mainly for surrogate modeling.
   
   <br clear="all">
 
