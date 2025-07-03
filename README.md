@@ -66,7 +66,7 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>B.S. in Data Science</b></span>
-  <span style="text-align: right;">September 2021 - June 2025</span>
+  <span style="text-align: right;">Sept. 2021 - June 2025</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
