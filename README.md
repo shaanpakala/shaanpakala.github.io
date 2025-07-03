@@ -90,20 +90,15 @@
 </section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Data Science Research Assistant</b></span>
-  <span style="text-align: right;">September 2024 - June 2025</span>
+  <span><b>Graduate Data Science Intern</b></span>
+  <span style="text-align: right;">Summer 2025</span>
 </p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+<p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
-  <span><b>Bioinformatics Research Assistant</b></span>
-  <span style="text-align: right;">March 2024 - December 2024</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-top: 40px;">
-  <span><b><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244480&HistoricalAwards=false">NSF REU</a> Data Science Research Intern</b></span>
-  <span style="text-align: right;">Summer 2024</span>
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Undergraduate Researcher</b></span>
+  <span style="text-align: right;">March 2024 - June 2025</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
