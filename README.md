@@ -59,7 +59,7 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Ph.D. in Computer Science</b></span>
-  <span style="text-align: right;">Starting Fall 2025</span>
+  <span style="text-align: right;">Starting Sept. 2025</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
@@ -114,7 +114,7 @@
 
 
 <hr>
-<p style="font-size: 16px;"><i>Last updated June 19, 2025</i></p>
+<p style="font-size: 16px;"><i>Last updated July 2, 2025</i></p>
 
 
 </div>
