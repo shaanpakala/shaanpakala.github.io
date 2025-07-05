@@ -51,6 +51,27 @@
 
 <section id="Education">
 <br>
+
+
+<section id="Experience">
+<br>
+<p style="font-size: 50px;"><b>Research Experience</b></p>
+<hr>
+</section>
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Graduate Data Science Intern</b></span>
+  <span style="text-align: right;">Summer 2025</span>
+</p>
+<p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
+
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Undergrad Research</b></span>
+  <span style="text-align: right;">March 2024 - June 2025</span>
+</p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+
   
 <p style="font-size: 50px;"><b>Education</b></p>
 <hr>
@@ -90,25 +111,6 @@
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
   <span><u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI 2025 Knowledge-Guided Machine Learning (KGML) Bridge Program</i>. [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
 </p>
-
-<section id="Experience">
-<br>
-<p style="font-size: 50px;"><b>Research Experience</b></p>
-<hr>
-</section>
-
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Graduate Data Science Intern</b></span>
-  <span style="text-align: right;">Summer 2025</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
-
-
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Undergraduate Researcher</b></span>
-  <span style="text-align: right;">March 2024 - June 2025</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
 <br clear="all">
 
