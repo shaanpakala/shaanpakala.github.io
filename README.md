@@ -51,6 +51,26 @@
 
 <section id="Education">
 <br>
+  
+<p style="font-size: 50px;"><b>Education</b></p>
+<hr>
+</section>
+
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>Ph.D. in Computer Science</b></span>
+  <span style="text-align: right;">Starting Sept. 2025</span>
+</p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+
+
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
+  <span><b>B.S. in Data Science</b></span>
+  <span style="text-align: right;">Sept. 2021 - June 2025</span>
+</p>
+<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
+
+<br clear="all">
 
 
 <section id="Experience">
@@ -72,26 +92,6 @@
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
-  
-<p style="font-size: 50px;"><b>Education</b></p>
-<hr>
-</section>
-
-
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Ph.D. in Computer Science</b></span>
-  <span style="text-align: right;">Starting Sept. 2025</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
-
-
-<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>B.S. in Data Science</b></span>
-  <span style="text-align: right;">Sept. 2021 - June 2025</span>
-</p>
-<p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
-
-<br clear="all">
 
 <section id="Papers">
 <br>
