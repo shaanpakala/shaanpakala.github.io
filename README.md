@@ -80,7 +80,7 @@
 </section>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
-  <span><b>Graduate Data Science Intern</b></span>
+  <span><b>Data Science Research Intern</b></span>
   <span style="text-align: right;">Summer 2025</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>Lawrence Livermore National Laboratory</em></p>
