@@ -113,7 +113,7 @@
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  P. Goulart*, <span><u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
+  <span> P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
 </p>
 
 <i>* denotes equal contribution</i>
