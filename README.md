@@ -116,6 +116,8 @@
   P. Goulart*, <span><u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV 2025 Workshop on Representation Learning with Very Limited Resources</i>. [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
 </p>
 
+<i>* denotes equal contribution</i>
+
 <br clear="all">
 
 
