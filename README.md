@@ -102,18 +102,18 @@
 <p style="font-size: 28px;"><b>Conference</b></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data 2024</i>. <b>Received Student Travel Award</b>. [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
+  <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data</i (2025). [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
 </p>
 
 
 <p style="font-size: 28px;"><b>Workshop</b></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span><u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI 2025 Bridge on Knowledge-Guided Machine Learning </i>. [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
+  <span><u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI Bridge on Knowledge-Guided Machine Learning </i> (2025). [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  P. Goulart*, <span><u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV 2025 Workshop on Representation Learning with Very Limited Resources</i>. [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
+  P. Goulart*, <span><u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
 </p>
 
 <i>* denotes equal contribution</i>
