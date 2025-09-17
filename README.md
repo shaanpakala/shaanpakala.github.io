@@ -99,7 +99,7 @@
 <hr>
 </section>
 
-<p style="font-size: 28px;"><b>Conference</b></p>
+<p style="font-size: 28px;"><b>Main Conference</b></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
   <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data</i> (2024). [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
@@ -113,16 +113,9 @@
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span>P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>]</span>
+  <span>P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>] [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion">Code</a>]</span>
 </p>
 
 <i>* denotes equal contribution</i>
 
 <br clear="all">
-
-
-<hr>
-<p style="font-size: 16px;"><i>Last updated September 3, 2025</i></p>
-
-
-</div>
