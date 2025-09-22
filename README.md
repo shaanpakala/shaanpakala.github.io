@@ -116,6 +116,11 @@
   <span>P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>] [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion">Code</a>]</span>
 </p>
 
+<p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
+  <u>Shaan Pakala</u>, A. Gongora, B. Giera, E. E. Papalexakis, "Surrogate Modeling for the Design of Optimal Lattice
+Structures using Tensor Completion," <i>NeurIPS Workshop on AI for Accelerated Materials Design</i> (2025).</span>
+</p>
+
 <i>* denotes equal contribution</i>
 
 <br clear="all">
