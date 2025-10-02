@@ -81,7 +81,7 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0;">
   <span><b>Graduate Research Assistant</b></span>
-  <span style="text-align: right;">Sept. 2025 - Present</span>
+  <span style="text-align: right;">June 2025 - Present</span>
 </p>
 <p style="font-size: 22px; line-height: 1.0;"><em>University of California, Riverside</em></p>
 
