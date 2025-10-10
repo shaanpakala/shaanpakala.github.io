@@ -125,7 +125,7 @@
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
   <span><u>Shaan Pakala</u>, A. Gongora, B. Giera, E. E. Papalexakis, "Surrogate Modeling for the Design of Optimal Lattice
-Structures using Tensor Completion," <i>NeurIPS Workshop on AI for Accelerated Materials Design</i> (2025).</span>
+Structures using Tensor Completion," <i>NeurIPS Workshop on AI for Accelerated Materials Design</i> (2025). [<a href="https://arxiv.org/pdf/2510.07474">PDF</a>] [<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion">Code</a>]</span>
 </p>
 
 <i>* denotes equal contribution</i>
