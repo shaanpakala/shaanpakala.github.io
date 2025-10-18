@@ -109,22 +109,22 @@
 <p style="font-size: 28px;"><b>Main Conference</b></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span><u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data</i> (2024). [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
+  <span>• <u>Shaan Pakala</u>, B. Graw, D. Ahn, T. Dinh, M. T. Mahin, V. Tsotras, J. Chen, E. E. Papalexakis, "Automating Data Science Pipelines with Tensor Completion," <i>IEEE International Conference on Big Data</i> (2024). [<a href="https://ieeexplore.ieee.org/document/10825934">Link</a>] [<a href="https://arxiv.org/pdf/2410.06408">PDF</a>] [<a href="https://github.com/shaanpakala/STC_AutoML">Code</a>]</span>
 </p>
 
 
 <p style="font-size: 28px;"><b>Workshop</b></p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span><u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI Bridge on Knowledge-Guided Machine Learning </i> (2025). [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
+  <span>• <u>Shaan Pakala</u>, D. Ahn, E. E. Papalexakis, "Tensor Completion for Surrogate Modeling of Material Property Prediction," <i>AAAI Bridge on Knowledge-Guided Machine Learning </i> (2025). [<a href="https://arxiv.org/pdf/2501.18137">PDF</a>]</span>
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span>P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>] [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion">Code</a>]</span>
+  <span>• P. Goulart*, <u>Shaan Pakala</u>*, E. E. Papalexakis, "Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization," <i>ICCV Workshop on Representation Learning with Very Limited Resources</i> (2025). [<a href="https://arxiv.org/pdf/2508.19443">PDF</a>] [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion">Code</a>]</span>
 </p>
 
 <p style="font-size: 24px; display: flex; justify-content: space-between; line-height: 1.0; margin-left: 30px;">
-  <span><u>Shaan Pakala</u>, A. Gongora, B. Giera, E. E. Papalexakis, "Surrogate Modeling for the Design of Optimal Lattice
+  <span>• <u>Shaan Pakala</u>, A. Gongora, B. Giera, E. E. Papalexakis, "Surrogate Modeling for the Design of Optimal Lattice
 Structures using Tensor Completion," <i>NeurIPS Workshop on AI for Accelerated Materials Design</i> (2025). [<a href="https://arxiv.org/pdf/2510.07474">PDF</a>] [<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion">Code</a>]</span>
 </p>
 
