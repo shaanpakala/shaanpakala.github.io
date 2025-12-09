@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Shaan Pakala</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
 # Shaan Pakala
 
 <!-- Google tag (gtag.js) -->
@@ -131,3 +140,6 @@ Structures using Tensor Completion," <i>NeurIPS Workshop on AI for Accelerated M
 <i>* denotes equal contribution</i>
 
 <br clear="all">
+
+</body>
+</html>
