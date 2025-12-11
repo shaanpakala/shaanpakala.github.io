@@ -1,27 +1,42 @@
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#fafafa;color:#222}
-a{color:#005bbb;text-decoration:none}a:hover{text-decoration:underline}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#fafafa;color:#222;transition:background 0.3s ease, color 0.3s ease}
+a{color:#005bbb;text-decoration:none;transition:color 0.3s ease}a:hover{text-decoration:underline}
 .layout{display:flex;min-height:100vh}
-.sidebar{width:280px;background: #edf9fa;border-right:1px solid #ddd;padding:30px 25px;box-sizing:border-box;position:fixed;height:100%;overflow-y:auto}
+.sidebar{width:280px;background: #edf9fa;border-right:1px solid #ddd;padding:30px 25px;box-sizing:border-box;position:fixed;height:100%;overflow-y:auto;transition:background 0.3s ease, border-color 0.3s ease}
 .profile-pic{width:100%;border-radius:10px;margin-bottom:15px}
 .name{margin:10px 0 0;font-size:26px;font-weight:700}
-.subtitle{font-size:14px;color:#666;margin-top:5px}
+.subtitle{font-size:14px;color:#666;margin-top:5px;transition:color 0.3s ease}
 .links{margin-top:12px;font-size:15px}
 .icon-row{margin-top:12px}
 .icon{width:26px;height:26px;margin-right:10px;opacity:.85}.icon:hover{opacity:1}
 .sidebar-nav{margin-top:25px;display:flex;flex-direction:column;gap:8px}
-.sidebar-nav a{font-size:16px;color:#333;padding:4px 0}
+.sidebar-nav a{font-size:16px;color:#333;padding:4px 0;transition:color 0.3s ease}
+.dark-mode-toggle{margin-top:20px;padding:10px 16px;background:#005bbb;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;width:100%;font-weight:600;transition:background 0.3s ease}
+.dark-mode-toggle:hover{background:#004a99}
 .content{margin-left:320px;padding:40px 50px;max-width:900px;width:100%;box-sizing:border-box}
 h2{font-size:32px;margin-top:40px;margin-bottom:10px}
 h3{font-size:24px;margin-top:25px}
 p{font-size:18px;line-height:1.5}
 .item{margin-bottom:25px}
 .item-header{font-size:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
-.item-sub{font-size:18px;color:#555;margin-top:4px}
-.item-date{color:#777}
+.item-sub{font-size:18px;color:#555;margin-top:4px;transition:color 0.3s ease}
+.item-date{color:#777;transition:color 0.3s ease}
 .paper-list{padding-left:20px;line-height:1.5}
 .paper-list li{margin-bottom:15px;font-size:18px}
 .section-title {background: #edf9fa; color: #000000; padding: 12px 18px; border-radius: 12px; border: 1px solid #000; font-weight: 700; 
-             display: inline-block;}
+             display: inline-block;transition:background 0.3s ease, color 0.3s ease, border-color 0.3s ease}
+
+/* Dark Mode Styles */
+body.dark-mode{background:#0a0a1a;color:#e0e0e0}
+body.dark-mode a{color:#9d7cd8}
+body.dark-mode .sidebar{background:#12121f;border-right:1px solid #2a2a3a}
+body.dark-mode .name{color:#e0e0e0}
+body.dark-mode .subtitle{color:#b0b0c0}
+body.dark-mode .sidebar-nav a{color:#d0d0e0}
+body.dark-mode .dark-mode-toggle{background:#9d7cd8;color:#0a0a1a}
+body.dark-mode .dark-mode-toggle:hover{background:#b89ee8}
+body.dark-mode .item-sub{color:#b0b0c0}
+body.dark-mode .item-date{color:#9090a0}
+body.dark-mode .section-title{background:#1a1a2e;color:#e0e0e0;border:1px solid #9d7cd8}
 
 @media(max-width:900px){
     .layout{flex-direction:column}
@@ -33,4 +48,5 @@ p{font-size:18px;line-height:1.5}
     .item-header{font-size:18px}
     .item-sub{font-size:16px}
     .paper-list li{font-size:16px}
+    body.dark-mode .sidebar{border-bottom:1px solid #2a2a3a}
 }
