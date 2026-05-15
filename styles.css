@@ -1,26 +1,7 @@
-/* ── Theme variables (set by JS slider; defaults match original light-blue) ── */
-:root {
-  --accent-bg:     hsl(186, 70%, 94%);
-  --accent-border: hsl(186, 50%, 70%);
-}
-
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#fafafa;color:#222}
 a{color:#005bbb;text-decoration:none}a:hover{text-decoration:underline}
 .layout{display:flex;min-height:100vh}
-
-/* Sidebar uses the accent variable */
-.sidebar{
-  width:280px;
-  background: var(--accent-bg);
-  border-right:1px solid var(--accent-border);
-  padding:30px 25px;
-  box-sizing:border-box;
-  position:fixed;
-  height:100%;
-  overflow-y:auto;
-  transition: background 0.15s ease, border-color 0.15s ease;
-}
-
+.sidebar{width:280px;background: #edf9fa;border-right:1px solid #ddd;padding:30px 25px;box-sizing:border-box;position:fixed;height:100%;overflow-y:auto}
 .profile-pic{width:100%;border-radius:10px;margin-bottom:15px}
 .name{margin:10px 0 0;font-size:26px;font-weight:700}
 .subtitle{font-size:14px;color:#666;margin-top:5px}
@@ -39,90 +20,12 @@ p{font-size:18px;line-height:1.5}
 .item-date{color:#777}
 .paper-list{padding-left:20px;line-height:1.5}
 .paper-list li{margin-bottom:15px;font-size:18px}
-
-/* Section title boxes also use the accent variable */
-.section-title {
-  background: var(--accent-bg);
-  color: #000000;
-  padding: 12px 18px;
-  border-radius: 12px;
-  border: 1px solid #000;
-  font-weight: 700;
-  display: inline-block;
-  transition: background 0.15s ease;
-}
-
-/* ── Color slider ── */
-.color-slider-wrap {
-  margin-top: 28px;
-  padding-top: 18px;
-  border-top: 1px solid var(--accent-border);
-}
-
-.color-slider-label {
-  display: block;
-  font-size: 13px;
-  font-weight: 600;
-  color: #555;
-  margin-bottom: 8px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.slider-track-wrap {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.slider-end-label {
-  font-size: 14px;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-/* The range input itself — styled as a purple→blue gradient track */
-.color-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  flex: 1;
-  height: 6px;
-  border-radius: 3px;
-  background: linear-gradient(to right, #a855f7, #3b82f6);
-  outline: none;
-  cursor: pointer;
-}
-
-.color-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid #888;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-  cursor: pointer;
-  transition: border-color 0.15s;
-}
-
-.color-slider::-moz-range-thumb {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid #888;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-  cursor: pointer;
-}
-
-.color-slider::-webkit-slider-thumb:hover {
-  border-color: #555;
-}
+.section-title {background: #edf9fa; color: #000000; padding: 12px 18px; border-radius: 12px; border: 1px solid #000; font-weight: 700; 
+             display: inline-block;}
 
 @media(max-width:900px){
     .layout{flex-direction:column}
-    .sidebar{position:relative;width:100%;height:auto;border-right:none;border-bottom:1px solid var(--accent-border);padding:20px}
+    .sidebar{position:relative;width:100%;height:auto;border-right:none;border-bottom:1px solid #ddd;padding:20px}
     .content{margin-left:0;padding:20px;max-width:100%}
     h2{font-size:28px}
     h3{font-size:22px}
