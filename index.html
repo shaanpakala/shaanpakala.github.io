@@ -4,8 +4,129 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shaan Pakala</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="images/sp.png">
+  <style>
+    :root {
+      --accent-bg:     hsl(225, 65%, 93%);
+      --accent-border: hsl(225, 40%, 72%);
+    }
+
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:#fafafa; color:#222; }
+    a { color:#005bbb; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    .layout { display:flex; min-height:100vh; }
+
+    .sidebar {
+      width: 280px;
+      background: var(--accent-bg);
+      border-right: 1px solid var(--accent-border);
+      padding: 30px 25px;
+      box-sizing: border-box;
+      position: fixed;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .profile-pic { width:100%; border-radius:10px; margin-bottom:15px; }
+    .name        { margin:10px 0 0; font-size:26px; font-weight:700; }
+    .subtitle    { font-size:14px; color:#666; margin-top:5px; }
+    .links       { margin-top:12px; font-size:15px; }
+    .icon-row    { margin-top:12px; }
+    .icon        { width:26px; height:26px; margin-right:10px; opacity:.85; }
+    .icon:hover  { opacity:1; }
+
+    .sidebar-nav { margin-top:25px; display:flex; flex-direction:column; gap:8px; }
+    .sidebar-nav a { font-size:16px; color:#333; padding:4px 0; }
+
+    .content { margin-left:320px; padding:40px 50px; max-width:900px; width:100%; box-sizing:border-box; }
+
+    h2 { font-size:32px; margin-top:40px; margin-bottom:10px; }
+    h3 { font-size:24px; margin-top:25px; }
+    p  { font-size:18px; line-height:1.5; }
+
+    .item        { margin-bottom:25px; }
+    .item-header { font-size:20px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+    .item-sub    { font-size:18px; color:#555; margin-top:4px; }
+    .item-date   { color:#777; }
+
+    .paper-list    { padding-left:20px; line-height:1.5; }
+    .paper-list li { margin-bottom:15px; font-size:18px; }
+
+    .section-title {
+      background: var(--accent-bg);
+      color: #000;
+      padding: 12px 18px;
+      border-radius: 12px;
+      border: 1px solid #000;
+      font-weight: 700;
+      display: inline-block;
+    }
+
+    /* ── Theme picker ── */
+    .theme-picker {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--accent-border);
+    }
+    .theme-picker-label {
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+      color: #000;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .theme-slider-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .theme-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+    .theme-dot.purple { background:#9333ea; }
+    .theme-dot.blue   { background:#3b82f6; }
+
+    #colorSlider {
+      -webkit-appearance: none;
+      appearance: none;
+      flex: 1;
+      height: 8px;
+      border-radius: 4px;
+      background: linear-gradient(to right, #c084fc, #93c5fd);
+      outline: none;
+      cursor: pointer;
+      border: none;
+    }
+    #colorSlider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #aaa;
+      box-shadow: 0 1px 4px rgba(0,0,0,.25);
+      cursor: pointer;
+    }
+    #colorSlider::-moz-range-thumb {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #aaa;
+      box-shadow: 0 1px 4px rgba(0,0,0,.25);
+      cursor: pointer;
+    }
+
+    @media (max-width:900px) {
+      .layout      { flex-direction:column; }
+      .sidebar     { position:relative; width:100%; height:auto; border-right:none; border-bottom:1px solid var(--accent-border); padding:20px; }
+      .content     { margin-left:0; padding:20px; max-width:100%; }
+      h2           { font-size:28px; }
+      h3           { font-size:22px; }
+      p            { font-size:16px; }
+      .item-header { font-size:18px; }
+      .item-sub    { font-size:16px; }
+      .paper-list li { font-size:16px; }
+    }
+  </style>
 </head>
 <body>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4HHP6LBJ6"></script>
@@ -38,9 +159,8 @@
       <a href="#papers">Papers</a>
     </nav>
 
-    <!-- Color theme picker -->
     <div class="theme-picker">
-      <div class="theme-picker-label">Theme Color</div>
+      <span class="theme-picker-label">Theme Color</span>
       <div class="theme-slider-row">
         <span class="theme-dot purple"></span>
         <input type="range" id="colorSlider" min="0" max="100" value="55">
@@ -53,21 +173,21 @@
     <section id="about">
       <h2 class="section-title">About Me</h2>
       <p>
-        Hi, I'm Shaan. I am a 1st year Computer Science Ph.D. student at the University of California, Riverside, advised by 
+        Hi, I'm Shaan. I am a 1st year Computer Science Ph.D. student at the University of California, Riverside, advised by
         Professor <a href="https://www.cs.ucr.edu/~epapalex/" target="_blank" rel="noopener noreferrer">Vagelis Papalexakis</a>.
       </p>
     </section>
 
     <section id="education">
       <h2 class="section-title">Education</h2>
-      <div style="margin-top: 15px;"></div>
+      <div style="margin-top:15px;"></div>
       <div class="item"><div class="item-header"><span><strong>University of California, Riverside</strong></span><span class="item-date">Sept. 2025 – Present</span></div><div class="item-sub"><em>Ph.D. in Computer Science</em></div></div>
       <div class="item"><div class="item-header"><span><strong>University of California, Riverside</strong></span><span class="item-date">Sept. 2021 – June 2025</span></div><div class="item-sub"><em>B.S. in Data Science</em></div></div>
     </section>
 
     <section id="experience">
       <h2 class="section-title">Research Experience</h2>
-      <div style="margin-top: 15px;"></div>
+      <div style="margin-top:15px;"></div>
       <div class="item"><div class="item-header"><span><strong>University of California, Riverside</strong></span><span class="item-date">June 2025 – Present</span></div><div class="item-sub"><em>Graduate Researcher</em></div></div>
       <div class="item"><div class="item-header"><span><strong>Lawrence Livermore National Laboratory</strong></span><span class="item-date">June 2025 – Sept. 2025</span></div><div class="item-sub"><em>Research Intern</em></div></div>
       <div class="item"><div class="item-header"><span><strong>University of California, Riverside</strong></span><span class="item-date">June 2024 – June 2025</span></div><div class="item-sub"><em>Undergrad Researcher</em></div></div>
@@ -80,45 +200,45 @@
       <ul class="paper-list">
         <li><strong>Automating Data Science Pipelines with Tensor Completion</strong>
           <br>
-          <u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and 
+          <u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and
           Evangelos Papalexakis
           <br>
           <i>IEEE International Conference on Big Data 2024</i>
-          [<a href="https://arxiv.org/pdf/2410.06408?" target="_blank" rel="noopener noreferrer">PDF</a>] 
+          [<a href="https://arxiv.org/pdf/2410.06408?" target="_blank" rel="noopener noreferrer">PDF</a>]
           [<a href="https://github.com/shaanpakala/STC_AutoML" target="_blank" rel="noopener noreferrer">Code</a>]
         </li>
       </ul>
 
       <h3>Workshop</h3>
       <ul class="paper-list">
-        <li><strong>Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</strong> 
+        <li><strong>Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</strong>
           <br>
           <u>Shaan Pakala</u>, Aldair Gongora, Brian Giera, and Evangelos Papalexakis
           <br>
           <i>NeurIPS AI4Mat Workshop 2025</i>
-          [<a href="https://arxiv.org/pdf/2510.07474?" target="_blank" rel="noopener noreferrer">PDF</a>] 
+          [<a href="https://arxiv.org/pdf/2510.07474?" target="_blank" rel="noopener noreferrer">PDF</a>]
           [<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion" target="_blank" rel="noopener noreferrer">Code</a>]
         </li>
       </ul>
 
       <ul class="paper-list">
-        <li><strong>Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</strong> 
+        <li><strong>Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</strong>
           <br>
           Paimon Goulart*, <u>Shaan Pakala</u>*, and Evangelos Papalexakis
           <br>
           <i>ICCV LIMIT Workshop 2025</i>
-          [<a href="https://arxiv.org/pdf/2508.19443?" target="_blank" rel="noopener noreferrer">PDF</a>] 
+          [<a href="https://arxiv.org/pdf/2508.19443?" target="_blank" rel="noopener noreferrer">PDF</a>]
           [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">Code</a>]
         </li>
       </ul>
-      
+
       <ul class="paper-list">
-        <li><strong>Tensor Completion for Surrogate Modeling of Material Property Prediction</strong> 
+        <li><strong>Tensor Completion for Surrogate Modeling of Material Property Prediction</strong>
           <br>
           <u>Shaan Pakala</u>, Dawon Ahn, and Evangelos Papalexakis
           <br>
           <i>AAAI KGML Bridge 2025</i>
-          [<a href="https://arxiv.org/pdf/2501.18137" target="_blank" rel="noopener noreferrer">PDF</a>] 
+          [<a href="https://arxiv.org/pdf/2501.18137" target="_blank" rel="noopener noreferrer">PDF</a>]
         </li>
       </ul>
 
@@ -129,7 +249,6 @@
 
 <script>
   function setTheme(val) {
-    // val: 0 = purple (hue 270), 100 = blue (hue 210)
     const hue    = 270 - (val / 100) * 60;
     const bg     = `hsl(${hue}, 65%, 93%)`;
     const border = `hsl(${hue}, 40%, 72%)`;
