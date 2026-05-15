@@ -83,7 +83,6 @@
       gap: 8px;
     }
 
-    /* Dots — colors set by JS to match actual endpoint hues */
     .theme-dot {
       width: 14px;
       height: 14px;
@@ -92,14 +91,20 @@
       border: 1px solid #555;
     }
 
-    /* Retro-style slider: flat, outlined, square-ish thumb */
     #colorSlider {
       -webkit-appearance: none;
       appearance: none;
       flex: 1;
       height: 14px;
       border-radius: 2px;
-      background: linear-gradient(to right, var(--dot-purple), var(--dot-blue));
+      /* dark purple → pastel purple → white → pastel blue → dark blue */
+      background: linear-gradient(to right,
+        hsl(270, 60%, 35%) 0%,
+        hsl(270, 65%, 93%) 25%,
+        #fafafa              50%,
+        hsl(210, 65%, 93%) 75%,
+        hsl(210, 60%, 35%) 100%
+      );
       outline: none;
       cursor: pointer;
       border: 2px solid #000;
@@ -170,10 +175,10 @@
     </nav>
 
     <div class="theme-picker">
-      <span class="theme-picker-label">Color</span>
+      <span class="theme-picker-label">Theme Color</span>
       <div class="theme-slider-row">
         <span class="theme-dot" id="dotPurple"></span>
-        <input type="range" id="colorSlider" min="0" max="100" value="100">
+        <input type="range" id="colorSlider" min="0" max="100" value="55">
         <span class="theme-dot" id="dotBlue"></span>
       </div>
     </div>
@@ -258,35 +263,48 @@
 </div>
 
 <script>
-  // Purple endpoint: hue 270, Blue endpoint: hue 210 — same formula as bg
-  const PURPLE_HUE = 270;
-  const BLUE_HUE   = 210;
-  const S = 65, L = 93; // same saturation/lightness as the accent bg
+  // Keyframes matching the track gradient exactly:
+  // 0%   → hsl(270, 60%, 35%)  dark purple
+  // 25%  → hsl(270, 65%, 93%)  pastel purple
+  // 50%  → #fafafa              white
+  // 75%  → hsl(210, 65%, 93%)  pastel blue
+  // 100% → hsl(210, 60%, 35%)  dark blue
 
-  function hslStr(hue) {
-    return `hsl(${hue}, ${S}%, ${L}%)`;
+  function lerpHSL(h1,s1,l1, h2,s2,l2, t) {
+    return [h1+(h2-h1)*t, s1+(s2-s1)*t, l1+(l2-l1)*t];
   }
 
-  const purpleColor = hslStr(PURPLE_HUE);
-  const blueColor   = hslStr(BLUE_HUE);
+  function themeFromSlider(val) {
+    const t = val / 100; // 0–1
 
-  // Set dot colors and CSS vars for the track gradient endpoints
-  document.getElementById('dotPurple').style.background = purpleColor;
-  document.getElementById('dotBlue').style.background   = blueColor;
-  document.documentElement.style.setProperty('--dot-purple', purpleColor);
-  document.documentElement.style.setProperty('--dot-blue',   blueColor);
+    let h, s, l;
+    if (t <= 0.25) {
+      // dark purple → pastel purple
+      [h,s,l] = lerpHSL(270,60,35, 270,65,93, t/0.25);
+    } else if (t <= 0.5) {
+      // pastel purple → white (hue stays 270, sat→0, light→98)
+      [h,s,l] = lerpHSL(270,65,93, 270,0,98, (t-0.25)/0.25);
+    } else if (t <= 0.75) {
+      // white → pastel blue (hue jumps to 210, sat climbs back)
+      [h,s,l] = lerpHSL(210,0,98, 210,65,93, (t-0.5)/0.25);
+    } else {
+      // pastel blue → dark blue
+      [h,s,l] = lerpHSL(210,65,93, 210,60,35, (t-0.75)/0.25);
+    }
 
-  function setTheme(val) {
-    const hue    = PURPLE_HUE - (val / 100) * (PURPLE_HUE - BLUE_HUE);
-    const bg     = hslStr(hue);
-    const border = `hsl(${hue}, 40%, 72%)`;
+    const bg     = `hsl(${h.toFixed(1)}, ${s.toFixed(1)}%, ${l.toFixed(1)}%)`;
+    const border = `hsl(${h.toFixed(1)}, ${Math.max(s-25,0).toFixed(1)}%, ${Math.min(l-20,72).toFixed(1)}%)`;
     document.documentElement.style.setProperty('--accent-bg',     bg);
     document.documentElement.style.setProperty('--accent-border', border);
   }
 
+  // Dot colors match the track endpoints
+  document.getElementById('dotPurple').style.background = 'hsl(270, 60%, 35%)';
+  document.getElementById('dotBlue').style.background   = 'hsl(210, 60%, 35%)';
+
   const slider = document.getElementById('colorSlider');
-  slider.addEventListener('input', () => setTheme(+slider.value));
-  setTheme(+slider.value);
+  slider.addEventListener('input', () => themeFromSlider(+slider.value));
+  themeFromSlider(+slider.value);
 </script>
 </body>
 </html>
