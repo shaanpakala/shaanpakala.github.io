@@ -98,11 +98,11 @@
       height: 14px;
       border-radius: 2px;
       background: linear-gradient(to right,
-        hsl(270, 60%, 62%) 0%,
+        hsl(270, 60%, 74%) 0%,
         hsl(270, 65%, 93%) 25%,
         #fafafa              50%,
         hsl(210, 65%, 93%) 75%,
-        hsl(210, 60%, 62%) 100%
+        hsl(210, 60%, 74%) 100%
       );
       outline: none;
       cursor: pointer;
@@ -177,7 +177,7 @@
       <span class="theme-picker-label">Theme Color</span>
       <div class="theme-slider-row">
         <span class="theme-dot" id="dotPurple"></span>
-        <input type="range" id="colorSlider" min="0" max="100" value="65">
+        <input type="range" id="colorSlider" min="0" max="100" value="55">
         <span class="theme-dot" id="dotBlue"></span>
       </div>
     </div>
@@ -263,11 +263,11 @@
 
 <script>
   // Track keyframes (must match CSS gradient):
-  // 0%   → hsl(270, 60%, 62%)  medium-dark purple
+  // 0%   → hsl(270, 60%, 74%)  medium-dark purple
   // 25%  → hsl(270, 65%, 93%)  pastel purple
   // 50%  → #fafafa              white
   // 75%  → hsl(210, 65%, 93%)  pastel blue
-  // 100% → hsl(210, 60%, 62%)  medium-dark blue
+  // 100% → hsl(210, 60%, 74%)  medium-dark blue
 
   function lerp(a, b, t) { return a + (b - a) * t; }
 
@@ -280,13 +280,13 @@
 
     let h, s, l;
     if (t <= 0.25) {
-      [h,s,l] = lerpHSL(270,60,62, 270,65,93, t/0.25);
+      [h,s,l] = lerpHSL(270,60,74, 270,65,93, t/0.25);
     } else if (t <= 0.5) {
       [h,s,l] = lerpHSL(270,65,93, 270,0,98, (t-0.25)/0.25);
     } else if (t <= 0.75) {
       [h,s,l] = lerpHSL(210,0,98, 210,65,93, (t-0.5)/0.25);
     } else {
-      [h,s,l] = lerpHSL(210,65,93, 210,60,62, (t-0.75)/0.25);
+      [h,s,l] = lerpHSL(210,65,93, 210,60,74, (t-0.75)/0.25);
     }
 
     const bg     = `hsl(${h.toFixed(1)}, ${s.toFixed(1)}%, ${l.toFixed(1)}%)`;
@@ -295,8 +295,8 @@
     document.documentElement.style.setProperty('--accent-border', border);
   }
 
-  document.getElementById('dotPurple').style.background = 'hsl(270, 60%, 62%)';
-  document.getElementById('dotBlue').style.background   = 'hsl(210, 60%, 62%)';
+  document.getElementById('dotPurple').style.background = 'hsl(270, 60%, 74%)';
+  document.getElementById('dotBlue').style.background   = 'hsl(210, 60%, 74%)';
 
   const slider = document.getElementById('colorSlider');
   slider.addEventListener('input', () => themeFromSlider(+slider.value));
