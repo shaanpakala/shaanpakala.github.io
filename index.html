@@ -37,6 +37,16 @@
       <a href="#experience">Research Experience</a>
       <a href="#papers">Papers</a>
     </nav>
+
+    <!-- Color theme slider -->
+    <div class="color-slider-wrap">
+      <label class="color-slider-label" for="colorSlider">Theme Color</label>
+      <div class="slider-track-wrap">
+        <span class="slider-end-label" style="color:#a855f7;">■</span>
+        <input type="range" id="colorSlider" class="color-slider" min="0" max="100" value="100">
+        <span class="slider-end-label" style="color:#3b82f6;">■</span>
+      </div>
+    </div>
   </aside>
 
   <main class="content">
@@ -101,7 +111,6 @@
           <i>ICCV LIMIT Workshop 2025</i>
           [<a href="https://arxiv.org/pdf/2508.19443?" target="_blank" rel="noopener noreferrer">PDF</a>] 
           [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">Code</a>]
-
         </li>
       </ul>
       
@@ -121,5 +130,35 @@
   </main>
 </div>
 
+<script>
+  // Purple: hsl(270, 80%, 75%) → Blue: hsl(210, 80%, 75%)
+  // Slider 0 = purple, 100 = blue
+  const PURPLE_H = 270;
+  const BLUE_H   = 210;
+
+  // Derive a slightly deeper/more saturated border color from the bg hue
+  function applyTheme(value) {
+    const t = value / 100; // 0 = purple, 1 = blue
+    const hue = PURPLE_H + t * (BLUE_H - PURPLE_H); // 270 → 210
+
+    // Sidebar / section-title background: light pastel
+    const bgL = 94;
+    const bgS = 70;
+    const bgColor   = `hsl(${hue}, ${bgS}%, ${bgL}%)`;
+
+    // Border: a touch deeper
+    const borderColor = `hsl(${hue}, 50%, 70%)`;
+
+    document.documentElement.style.setProperty('--accent-bg',     bgColor);
+    document.documentElement.style.setProperty('--accent-border', borderColor);
+    document.documentElement.style.setProperty('--accent-hue',    hue);
+  }
+
+  const slider = document.getElementById('colorSlider');
+  slider.addEventListener('input', () => applyTheme(slider.value));
+
+  // Init at blue (matches original light-blue feel)
+  applyTheme(slider.value);
+</script>
 </body>
 </html>
