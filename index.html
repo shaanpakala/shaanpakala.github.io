@@ -82,36 +82,46 @@
       align-items: center;
       gap: 8px;
     }
-    .theme-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
-    .theme-dot.purple { background:#9333ea; }
-    .theme-dot.blue   { background:#3b82f6; }
 
+    /* Dots — colors set by JS to match actual endpoint hues */
+    .theme-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      border: 1px solid #555;
+    }
+
+    /* Retro-style slider: flat, outlined, square-ish thumb */
     #colorSlider {
       -webkit-appearance: none;
       appearance: none;
       flex: 1;
-      height: 8px;
-      border-radius: 4px;
-      background: linear-gradient(to right, #c084fc, #93c5fd);
+      height: 14px;
+      border-radius: 2px;
+      background: linear-gradient(to right, var(--dot-purple), var(--dot-blue));
       outline: none;
       cursor: pointer;
-      border: none;
+      border: 2px solid #000;
+      box-shadow: inset 1px 1px 0 rgba(255,255,255,0.4), inset -1px -1px 0 rgba(0,0,0,0.2);
     }
     #colorSlider::-webkit-slider-thumb {
       -webkit-appearance: none;
-      width: 18px; height: 18px;
-      border-radius: 50%;
-      background: #fff;
-      border: 2px solid #aaa;
-      box-shadow: 0 1px 4px rgba(0,0,0,.25);
+      width: 16px;
+      height: 20px;
+      border-radius: 2px;
+      background: #e8e8e8;
+      border: 2px solid #000;
+      box-shadow: 1px 1px 0 #fff inset, -1px -1px 0 #999 inset;
       cursor: pointer;
     }
     #colorSlider::-moz-range-thumb {
-      width: 18px; height: 18px;
-      border-radius: 50%;
-      background: #fff;
-      border: 2px solid #aaa;
-      box-shadow: 0 1px 4px rgba(0,0,0,.25);
+      width: 16px;
+      height: 20px;
+      border-radius: 2px;
+      background: #e8e8e8;
+      border: 2px solid #000;
+      box-shadow: 1px 1px 0 #fff inset, -1px -1px 0 #999 inset;
       cursor: pointer;
     }
 
@@ -162,9 +172,9 @@
     <div class="theme-picker">
       <span class="theme-picker-label">Theme Color</span>
       <div class="theme-slider-row">
-        <span class="theme-dot purple"></span>
+        <span class="theme-dot" id="dotPurple"></span>
         <input type="range" id="colorSlider" min="0" max="100" value="55">
-        <span class="theme-dot blue"></span>
+        <span class="theme-dot" id="dotBlue"></span>
       </div>
     </div>
   </aside>
@@ -248,9 +258,27 @@
 </div>
 
 <script>
+  // Purple endpoint: hue 270, Blue endpoint: hue 210 — same formula as bg
+  const PURPLE_HUE = 270;
+  const BLUE_HUE   = 210;
+  const S = 65, L = 93; // same saturation/lightness as the accent bg
+
+  function hslStr(hue) {
+    return `hsl(${hue}, ${S}%, ${L}%)`;
+  }
+
+  const purpleColor = hslStr(PURPLE_HUE);
+  const blueColor   = hslStr(BLUE_HUE);
+
+  // Set dot colors and CSS vars for the track gradient endpoints
+  document.getElementById('dotPurple').style.background = purpleColor;
+  document.getElementById('dotBlue').style.background   = blueColor;
+  document.documentElement.style.setProperty('--dot-purple', purpleColor);
+  document.documentElement.style.setProperty('--dot-blue',   blueColor);
+
   function setTheme(val) {
-    const hue    = 270 - (val / 100) * 60;
-    const bg     = `hsl(${hue}, 65%, 93%)`;
+    const hue    = PURPLE_HUE - (val / 100) * (PURPLE_HUE - BLUE_HUE);
+    const bg     = hslStr(hue);
     const border = `hsl(${hue}, 40%, 72%)`;
     document.documentElement.style.setProperty('--accent-bg',     bg);
     document.documentElement.style.setProperty('--accent-border', border);
