@@ -37,6 +37,16 @@
       <a href="#experience">Research Experience</a>
       <a href="#papers">Papers</a>
     </nav>
+
+    <!-- Color theme picker -->
+    <div class="theme-picker">
+      <div class="theme-picker-label">Theme Color</div>
+      <div class="theme-slider-row">
+        <span class="theme-dot purple"></span>
+        <input type="range" id="colorSlider" min="0" max="100" value="55">
+        <span class="theme-dot blue"></span>
+      </div>
+    </div>
   </aside>
 
   <main class="content">
@@ -67,7 +77,6 @@
       <h2 class="section-title">Papers</h2>
 
       <h3>Conference</h3>
-      
       <ul class="paper-list">
         <li><strong>Automating Data Science Pipelines with Tensor Completion</strong>
           <br>
@@ -81,7 +90,6 @@
       </ul>
 
       <h3>Workshop</h3>
-
       <ul class="paper-list">
         <li><strong>Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</strong> 
           <br>
@@ -101,7 +109,6 @@
           <i>ICCV LIMIT Workshop 2025</i>
           [<a href="https://arxiv.org/pdf/2508.19443?" target="_blank" rel="noopener noreferrer">PDF</a>] 
           [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">Code</a>]
-
         </li>
       </ul>
       
@@ -116,10 +123,23 @@
       </ul>
 
       <i>* denotes equal contribution</i>
-      
     </section>
   </main>
 </div>
 
+<script>
+  function setTheme(val) {
+    // val: 0 = purple (hue 270), 100 = blue (hue 210)
+    const hue    = 270 - (val / 100) * 60;
+    const bg     = `hsl(${hue}, 65%, 93%)`;
+    const border = `hsl(${hue}, 40%, 72%)`;
+    document.documentElement.style.setProperty('--accent-bg',     bg);
+    document.documentElement.style.setProperty('--accent-border', border);
+  }
+
+  const slider = document.getElementById('colorSlider');
+  slider.addEventListener('input', () => setTheme(+slider.value));
+  setTheme(+slider.value);
+</script>
 </body>
 </html>
