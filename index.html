@@ -97,13 +97,12 @@
       flex: 1;
       height: 14px;
       border-radius: 2px;
-      /* dark purple → pastel purple → white → pastel blue → dark blue */
       background: linear-gradient(to right,
-        hsl(270, 60%, 55%) 0%,
+        hsl(270, 60%, 50%) 0%,
         hsl(270, 65%, 93%) 25%,
         #fafafa              50%,
         hsl(210, 65%, 93%) 75%,
-        hsl(210, 60%, 55%) 100%
+        hsl(210, 60%, 50%) 100%
       );
       outline: none;
       cursor: pointer;
@@ -263,33 +262,31 @@
 </div>
 
 <script>
-  // Keyframes matching the track gradient exactly:
-  // 0%   → hsl(270, 60%, 35%)  dark purple
+  // Track keyframes (must match CSS gradient):
+  // 0%   → hsl(270, 60%, 50%)  medium-dark purple
   // 25%  → hsl(270, 65%, 93%)  pastel purple
   // 50%  → #fafafa              white
   // 75%  → hsl(210, 65%, 93%)  pastel blue
-  // 100% → hsl(210, 60%, 35%)  dark blue
+  // 100% → hsl(210, 60%, 50%)  medium-dark blue
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
 
   function lerpHSL(h1,s1,l1, h2,s2,l2, t) {
-    return [h1+(h2-h1)*t, s1+(s2-s1)*t, l1+(l2-l1)*t];
+    return [lerp(h1,h2,t), lerp(s1,s2,t), lerp(l1,l2,t)];
   }
 
   function themeFromSlider(val) {
-    const t = val / 100; // 0–1
+    const t = val / 100;
 
     let h, s, l;
     if (t <= 0.25) {
-      // dark purple → pastel purple
-      [h,s,l] = lerpHSL(270,60,35, 270,65,93, t/0.25);
+      [h,s,l] = lerpHSL(270,60,50, 270,65,93, t/0.25);
     } else if (t <= 0.5) {
-      // pastel purple → white (hue stays 270, sat→0, light→98)
       [h,s,l] = lerpHSL(270,65,93, 270,0,98, (t-0.25)/0.25);
     } else if (t <= 0.75) {
-      // white → pastel blue (hue jumps to 210, sat climbs back)
       [h,s,l] = lerpHSL(210,0,98, 210,65,93, (t-0.5)/0.25);
     } else {
-      // pastel blue → dark blue
-      [h,s,l] = lerpHSL(210,65,93, 210,60,35, (t-0.75)/0.25);
+      [h,s,l] = lerpHSL(210,65,93, 210,60,50, (t-0.75)/0.25);
     }
 
     const bg     = `hsl(${h.toFixed(1)}, ${s.toFixed(1)}%, ${l.toFixed(1)}%)`;
@@ -298,9 +295,8 @@
     document.documentElement.style.setProperty('--accent-border', border);
   }
 
-  // Dot colors match the track endpoints
-  document.getElementById('dotPurple').style.background = 'hsl(270, 60%, 35%)';
-  document.getElementById('dotBlue').style.background   = 'hsl(210, 60%, 35%)';
+  document.getElementById('dotPurple').style.background = 'hsl(270, 60%, 50%)';
+  document.getElementById('dotBlue').style.background   = 'hsl(210, 60%, 50%)';
 
   const slider = document.getElementById('colorSlider');
   slider.addEventListener('input', () => themeFromSlider(+slider.value));
