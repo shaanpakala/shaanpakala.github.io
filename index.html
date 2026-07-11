@@ -75,6 +75,15 @@
       border-radius: 12px;
       overflow: hidden;
       background: #fff;
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .paper-box:hover {
+      text-decoration: none;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.18);
     }
     /* Top half: image (empty gray placeholder until an image is added) */
     .paper-box-img {
@@ -250,6 +259,7 @@
 
       <!--
         Three paper boxes. For each box:
+          • The whole box is a link — set where it goes via the href on <a class="paper-box" ...>
           • Top half is the image  — add your picture by setting the src, e.g.
             <img src="images/my-paper.png" alt="">
             (leave src empty to keep the gray placeholder)
@@ -257,7 +267,7 @@
       -->
       <div class="papers-grid">
 
-        <div class="paper-box">
+        <a class="paper-box" href="https://arxiv.org/pdf/2602.10392" target="_blank" rel="noopener noreferrer">
           <div class="paper-box-img">
             <img src="" alt="" onerror="this.style.display='none'">
           </div>
@@ -265,9 +275,9 @@
             <div class="paper-box-title">&lt;paper title&gt;</div>
             <div class="paper-box-venue">&lt;venue&gt;</div>
           </div>
-        </div>
+        </a>
 
-        <div class="paper-box">
+        <a class="paper-box" href="https://arxiv.org/pdf/2602.10392" target="_blank" rel="noopener noreferrer">
           <div class="paper-box-img">
             <img src="" alt="" onerror="this.style.display='none'">
           </div>
@@ -275,9 +285,9 @@
             <div class="paper-box-title">&lt;paper title&gt;</div>
             <div class="paper-box-venue">&lt;venue&gt;</div>
           </div>
-        </div>
+        </a>
 
-        <div class="paper-box">
+        <a class="paper-box" href="https://arxiv.org/pdf/2602.10392" target="_blank" rel="noopener noreferrer">
           <div class="paper-box-img">
             <img src="" alt="" onerror="this.style.display='none'">
           </div>
@@ -285,7 +295,7 @@
             <div class="paper-box-title">&lt;paper title&gt;</div>
             <div class="paper-box-venue">&lt;venue&gt;</div>
           </div>
-        </div>
+        </a>
 
       </div>
 
