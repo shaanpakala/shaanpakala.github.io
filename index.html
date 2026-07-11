@@ -70,7 +70,6 @@
     .paper-box {
       display: flex;
       flex-direction: column;
-      height: 260px;
       border: 1px solid #000;
       border-radius: 12px;
       overflow: hidden;
@@ -85,9 +84,10 @@
       transform: translateY(-3px);
       box-shadow: 0 6px 14px rgba(0,0,0,0.18);
     }
-    /* Top half: image (empty gray placeholder until an image is added) */
+    /* Top: image (fixed height, gray placeholder until an image is added) */
     .paper-box-img {
-      flex: 1;
+      height: 150px;
+      flex: none;
       background: #e8e8e8;
       display: flex;
       align-items: center;
@@ -100,7 +100,7 @@
       object-fit: cover;
       display: block;
     }
-    /* Bottom half: matches the title boxes and changes with the color bar */
+    /* Bottom: caption grows to fit text; matches the title boxes and changes with the color bar */
     .paper-box-caption {
       flex: 1;
       background: var(--accent-bg);
@@ -282,8 +282,7 @@
             <img src="images/ICCV_LIMIT_2025_thumbnail" alt="" onerror="this.style.display='none'">
           </div>
           <div class="paper-box-caption">
-            <div class="paper-box-title">Efficiently Generating Multidimensional Calorimeter Data with Tensor 
-              Decomposition Parameterization</div>
+            <div class="paper-box-title">Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</div>
             <div class="paper-box-venue">ICCV Workshop on Representation Learning with Very Limited Resources, 2025</div>
           </div>
         </a>
