@@ -118,7 +118,9 @@
     .org-logo.llnl { height:50px; border-radius:6px; }
     .org-logo.ucr  { height:43px; }
 
-    .exp-list  { list-style:none; padding-left:0; margin:18px 0 0; }
+    /* 19px = the section title's 18px padding + 1px border, so the vertical
+       rules line up with the first letter of the header above them. */
+    .exp-list  { list-style:none; padding-left:19px; margin:18px 0 0; }
     .exp-item  { margin-bottom:28px; padding-left:18px; border-left:3px solid var(--accent-border); }
     .exp-role  { font-size:19px; font-weight:700; }
     .exp-meta  { font-size:15px; color:#666; margin-top:3px; }
