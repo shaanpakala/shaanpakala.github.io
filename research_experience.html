@@ -105,6 +105,19 @@
     }
 
     /* ── Research experience entries ── */
+    .section-header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 40px;
+    }
+    .section-header .section-title { margin: 0; }
+
+    .org-logo      { width:auto; display:block; flex:none; }
+    .org-logo.llnl { height:50px; border-radius:6px; }
+    .org-logo.ucr  { height:43px; }
+
     .exp-list  { list-style:none; padding-left:0; margin:18px 0 0; }
     .exp-item  { margin-bottom:28px; padding-left:18px; border-left:3px solid var(--accent-border); }
     .exp-role  { font-size:19px; font-weight:700; }
@@ -141,6 +154,9 @@
       h3           { font-size:22px; }
       p            { font-size:16px; }
       .paper-list li { font-size:16px; }
+      .section-header { gap:12px; }
+      .org-logo.llnl  { height:38px; }
+      .org-logo.ucr   { height:32px; }
     }
   </style>
 </head>
@@ -184,7 +200,10 @@
 
   <main class="content">
     <section id="research-experience">
-      <h2 class="section-title">Lawrence Livermore National Laboratory</h2>
+      <div class="section-header">
+        <h2 class="section-title">Lawrence Livermore National Laboratory</h2>
+        <img src="images/llnl.png" class="org-logo llnl" alt="Lawrence Livermore National Laboratory logo">
+      </div>
 
       <ul class="exp-list">
         <li class="exp-item">
@@ -193,7 +212,7 @@
           <p class="exp-desc">
             Intern in the predictive healthcare group, with Dr. Priyadip Ray. I work on using machine
             learning for early disease outbreak detection, using the 
-            <a href="https://top500.org/lists/top500/" target="_blank" rel="noopener noreferrer">Tuolumne</a> supercomputer.
+            <a href="https://top500.org/lists/top500/" target="_blank" rel="noopener noreferrer">Tuolumne</a> supercomputer/
           </p>
         </li>
 
@@ -208,7 +227,10 @@
         </li>
       </ul>
 
-      <h2 class="section-title">University of California, Riverside</h2>
+      <div class="section-header">
+        <h2 class="section-title">University of California, Riverside</h2>
+        <img src="images/ucr.png" class="org-logo ucr" alt="University of California, Riverside logo">
+      </div>
 
       <ul class="exp-list">
         <li class="exp-item">
