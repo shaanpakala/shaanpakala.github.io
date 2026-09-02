@@ -104,6 +104,13 @@
       cursor: pointer;
     }
 
+    /* ── Research experience entries ── */
+    .exp-list  { list-style:none; padding-left:0; margin:18px 0 0; }
+    .exp-item  { margin-bottom:28px; padding-left:18px; border-left:3px solid var(--accent-border); }
+    .exp-role  { font-size:19px; font-weight:700; }
+    .exp-meta  { font-size:15px; color:#666; margin-top:3px; }
+    .exp-desc  { font-size:18px; line-height:1.5; margin:8px 0 0; }
+
     /* ── Sidebar navigation ── */
     .sidebar-nav {
       margin-top: 22px;
@@ -170,70 +177,62 @@
 
     <nav class="sidebar-nav">
       <a href="index.html" class="nav-btn">About me</a>
-      <a href="research_experience.html" class="nav-btn">Research Experience</a>
-      <a href="papers.html" class="nav-btn active">Publications</a>
+      <a href="research_experience.html" class="nav-btn active">Research Experience</a>
+      <a href="papers.html" class="nav-btn">Publications</a>
     </nav>
   </aside>
 
   <main class="content">
-    <section id="papers">
-      <h2 class="section-title">Conference</h2>
+    <section id="research-experience">
+      <h2 class="section-title">Lawrence Livermore National Laboratory</h2>
 
-      <ul class="paper-list">
-        <li><strong>Tensor Methods: A Unified and Interpretable Approach for Material Design</strong>
-          <br>
-          <u>Shaan Pakala</u>, Aldair Gongora, Brian Giera, and
-          Evangelos Papalexakis
-          <br>
-          <i>Proceedings of ACM SIGKDD (<a href="https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/" target="_blank" rel="noopener noreferrer">AI for Sciences track</a>) 2026</i>
-          [<a href="https://dl.acm.org/doi/epdf/10.1145/3770855.3819008" target="_blank" rel="noopener noreferrer">PDF</a>]
-          [<a href="https://github.com/shaanpakala/Tensor-Methods-for-Material-Design" target="_blank" rel="noopener noreferrer">Code</a>]
+      <ul class="exp-list">
+        <li class="exp-item">
+          <div class="exp-role">Research Intern</div>
+          <div class="exp-meta">Predictive Healthcare Group &middot; Summer 2026</div>
+          <p class="exp-desc">
+            Intern in the predictive healthcare group, with Dr. Priyadip Ray. I work on using machine
+            learning for early disease outbreak detection, using the Tuolumne supercomputer
+            (#14 on the <a href="https://top500.org/lists/top500/" target="_blank" rel="noopener noreferrer">TOP500</a> list).
+          </p>
         </li>
-        <li><strong>Automating Data Science Pipelines with Tensor Completion</strong>
-          <br>
-          <u>Shaan Pakala</u>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and
-          Evangelos Papalexakis
-          <br>
-          <i>Proceedings of IEEE International Conference on Big Data 2024</i>
-          [<a href="https://arxiv.org/pdf/2410.06408?" target="_blank" rel="noopener noreferrer">PDF</a>]
-          [<a href="https://github.com/shaanpakala/STC_AutoML" target="_blank" rel="noopener noreferrer">Code</a>]
-        </li>
-      </ul>
 
-      <h2 class="section-title">Workshop</h2>
-      <ul class="paper-list">
-        <li><strong>Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</strong>
-          <br>
-          <u>Shaan Pakala</u>, Aldair Gongora, Brian Giera, and Evangelos Papalexakis
-          <br>
-          <i>NeurIPS AI4Mat Workshop 2025</i>
-          [<a href="https://arxiv.org/pdf/2510.07474?" target="_blank" rel="noopener noreferrer">PDF</a>]
-          [<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion" target="_blank" rel="noopener noreferrer">Code</a>]
+        <li class="exp-item">
+          <div class="exp-role">Research Intern</div>
+          <div class="exp-meta">Predictive Healthcare Group &middot; Summer 2025</div>
+          <p class="exp-desc">
+            Intern in the predictive healthcare group, with Dr. Priyadip Ray and Dr. Braden Soper.
+            I worked on causal inference for Parkinson's Disease progression, alongside clinicians
+            and biomedical researchers.
+          </p>
         </li>
       </ul>
 
-      <ul class="paper-list">
-        <li><strong>Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</strong>
-          <br>
-          Paimon Goulart*, <u>Shaan Pakala</u>*, and Evangelos Papalexakis
-          <br>
-          <i>ICCV LIMIT Workshop 2025</i>
-          [<a href="https://arxiv.org/pdf/2508.19443?" target="_blank" rel="noopener noreferrer">PDF</a>]
-          [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">Code</a>]
+      <h2 class="section-title">University of California, Riverside</h2>
+
+      <ul class="exp-list">
+        <li class="exp-item">
+          <div class="exp-role">Graduate Student Researcher</div>
+          <div class="exp-meta">June 2025 &ndash; Present</div>
+          <p class="exp-desc">
+            I work with domain-experts in physics &amp; material science on AI4Science problems using
+            tensor decomposition: (i) surrogate modeling for robust &amp; interpretable material design
+            [<a href="papers.html">1</a>] [<a href="papers.html">3</a>] and (ii) efficient physics
+            simulation generation using tensor decomposition in GANs &amp; diffusion models
+            [<a href="papers.html">4</a>].
+          </p>
+        </li>
+
+        <li class="exp-item">
+          <div class="exp-role">Undergraduate Student Researcher</div>
+          <div class="exp-meta">June 2024 &ndash; June 2025</div>
+          <p class="exp-desc">
+            Research with Prof. <a href="https://www.cs.ucr.edu/~epapalex/" target="_blank" rel="noopener noreferrer">Papalexakis</a>.
+            I worked on automating the optimization of data science pipelines (e.g., neural network
+            architecture search, SQL queries) with tensor completion [<a href="papers.html">2</a>].
+          </p>
         </li>
       </ul>
-
-      <ul class="paper-list">
-        <li><strong>Tensor Completion for Surrogate Modeling of Material Property Prediction</strong>
-          <br>
-          <u>Shaan Pakala</u>, Dawon Ahn, and Evangelos Papalexakis
-          <br>
-          <i>AAAI KGML Bridge 2025</i>
-          [<a href="https://arxiv.org/pdf/2501.18137" target="_blank" rel="noopener noreferrer">PDF</a>]
-        </li>
-      </ul>
-
-      <i>* denotes equal contribution</i>
     </section>
   </main>
 </div>
