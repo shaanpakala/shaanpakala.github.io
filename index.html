@@ -106,29 +106,18 @@
     .section-title { margin-top: 0; }
     section + section { margin-top: 56px; }
 
-    /* ── Publications ── */
+    /* ── Publications (plain citation style, black & white) ── */
     .subhead {
       font-size: 25px; font-weight: 700; color: #000;
       text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 2px;
       margin: 30px 0 16px;
     }
-    .pubs { list-style: none; margin: 0; padding: 0; display: grid; gap: 26px; }
-    .pub  { display: grid; gap: 3px; }
-    .pub-title { font-size: 18px; font-weight: 600; line-height: 1.4; }
-    .authors { font-size: 16px; color: #666; line-height: 1.5; }
-    .me {
-      color: #222; font-weight: 600;
-      text-decoration: underline; text-decoration-color: var(--accent-border);
-      text-decoration-thickness: 2px; text-underline-offset: 3px;
+    .pubs { list-style: disc; margin: 0; padding-left: 1.5em; display: grid; gap: 16px; }
+    .pub {
+      font-size: 17px; line-height: 1.55; color: #000;
     }
-    .venue { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font-size: 16px; color: #666; }
-    .tag {
-      font-size: 14px; font-weight: 600; color: #000;
-      background: var(--accent-bg); border: 1px solid var(--accent-border);
-      border-radius: 4px; padding: 1px 7px;
-    }
-    .res { display: inline-flex; gap: 6px; }
-    .note { font-size: 14px; color: #888; margin: 22px 0 0; }
+    .me { text-decoration: underline; }
+    .note { font-size: 14px; color: #000; margin: 22px 0 0; }
 
     @media (max-width:900px) {
       .layout      { flex-direction:column; }
@@ -137,9 +126,8 @@
       h2           { font-size:28px; }
       h3           { font-size:22px; }
       p            { font-size:16px; }
-      .pub-title     { font-size:17px; }
-      .authors, .venue { font-size:15px; }
-      .subhead       { font-size:22px; }
+      .pub         { font-size:16px; }
+      .subhead     { font-size:22px; }
     }
   </style>
 
@@ -223,38 +211,42 @@
       <p class="subhead">Conference</p>
       <ul class="pubs">
         <li class="pub">
-          <span class="pub-title">Tensor Methods: A Unified and Interpretable Approach for Material Design</span>
-          <span class="authors"><span class="me">Shaan Pakala</span>, Aldair Gongora, Brian Giera, Evangelos Papalexakis</span>
-          <span class="venue"><span class="tag">KDD'26</span><i>ACM SIGKDD (<a href="https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/" target="_blank" rel="noopener noreferrer">AI for Sciences track</a>) 2026</i>
-            <span class="res"><span>[<a href="https://dl.acm.org/doi/epdf/10.1145/3770855.3819008" target="_blank" rel="noopener noreferrer">pdf</a>]</span><span>[<a href="https://github.com/shaanpakala/Tensor-Methods-for-Material-Design" target="_blank" rel="noopener noreferrer">code</a>]</span></span></span>
+          <b>Tensor Methods: A Unified and Interpretable Approach for Material Design</b><br>
+          <span class="me">Shaan Pakala</span>, Aldair Gongora, Brian Giera, Evangelos Papalexakis<br>
+          <i>ACM SIGKDD (<a href="https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/" target="_blank" rel="noopener noreferrer">AI for Sciences track</a>) 2026</i>
+          [<a href="https://dl.acm.org/doi/epdf/10.1145/3770855.3819008" target="_blank" rel="noopener noreferrer">pdf</a>]
+          [<a href="https://github.com/shaanpakala/Tensor-Methods-for-Material-Design" target="_blank" rel="noopener noreferrer">code</a>]
         </li>
         <li class="pub">
-          <span class="pub-title">Automating Data Science Pipelines with Tensor Completion</span>
-          <span class="authors"><span class="me">Shaan Pakala</span>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, Evangelos Papalexakis</span>
-          <span class="venue"><span class="tag">BigData'24</span><i>IEEE International Conference on Big Data 2024</i>
-            <span class="res"><span>[<a href="https://arxiv.org/pdf/2410.06408" target="_blank" rel="noopener noreferrer">pdf</a>]</span><span>[<a href="https://github.com/shaanpakala/STC_AutoML" target="_blank" rel="noopener noreferrer">code</a>]</span></span></span>
+          <b>Automating Data Science Pipelines with Tensor Completion</b><br>
+          <span class="me">Shaan Pakala</span>, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, Evangelos Papalexakis<br>
+          <i>IEEE International Conference on BigData 2024</i>
+          [<a href="https://arxiv.org/pdf/2410.06408" target="_blank" rel="noopener noreferrer">pdf</a>]
+          [<a href="https://github.com/shaanpakala/STC_AutoML" target="_blank" rel="noopener noreferrer">code</a>]
         </li>
       </ul>
 
       <p class="subhead">Workshop</p>
       <ul class="pubs">
         <li class="pub">
-          <span class="pub-title">Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</span>
-          <span class="authors"><span class="me">Shaan Pakala</span>, Aldair Gongora, Brian Giera, Evangelos Papalexakis</span>
-          <span class="venue"><span class="tag">NeurIPS'25 Workshop</span><i>NeurIPS AI4Mat Workshop 2025</i>
-            <span class="res"><span>[<a href="https://arxiv.org/pdf/2510.07474" target="_blank" rel="noopener noreferrer">pdf</a>]</span><span>[<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion" target="_blank" rel="noopener noreferrer">code</a>]</span></span></span>
+          <b>Surrogate Modeling for the Design of Optimal Lattice Structures using Tensor Completion</b><br>
+          <span class="me">Shaan Pakala</span>, Aldair Gongora, Brian Giera, Evangelos Papalexakis<br>
+          <i>NeurIPS AI4Mat Workshop 2025</i>
+          [<a href="https://arxiv.org/pdf/2510.07474" target="_blank" rel="noopener noreferrer">pdf</a>]
+          [<a href="https://github.com/shaanpakala/Surrogate-Modeling-for-the-Design-of-Optimal-Lattice-Structures-using-Tensor-Completion" target="_blank" rel="noopener noreferrer">code</a>]
         </li>
         <li class="pub">
-          <span class="pub-title">Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</span>
-          <span class="authors">Paimon Goulart*, <span class="me">Shaan Pakala</span>*, Evangelos Papalexakis</span>
-          <span class="venue"><span class="tag">ICCV'25 Workshop</span><i>ICCV LIMIT Workshop 2025</i>
-            <span class="res"><span>[<a href="https://arxiv.org/pdf/2508.19443" target="_blank" rel="noopener noreferrer">pdf</a>]</span><span>[<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">code</a>]</span></span></span>
+          <b>Efficiently Generating Multidimensional Calorimeter Data with Tensor Decomposition Parameterization</b><br>
+          Paimon Goulart*, <span class="me">Shaan Pakala</span>*, Evangelos Papalexakis<br>
+          <i>ICCV LIMIT Workshop 2025</i>
+          [<a href="https://arxiv.org/pdf/2508.19443" target="_blank" rel="noopener noreferrer">pdf</a>]
+          [<a href="https://github.com/Pie115/GenTen-GAN-Diffusion" target="_blank" rel="noopener noreferrer">code</a>]
         </li>
         <li class="pub">
-          <span class="pub-title">Tensor Completion for Surrogate Modeling of Material Property Prediction</span>
-          <span class="authors"><span class="me">Shaan Pakala</span>, Dawon Ahn, Evangelos Papalexakis</span>
-          <span class="venue"><span class="tag">AAAI'25 Bridge</span><i>AAAI KGML Bridge 2025</i>
-            <span class="res"><span>[<a href="https://arxiv.org/pdf/2501.18137" target="_blank" rel="noopener noreferrer">pdf</a>]</span></span></span>
+          <b>Tensor Completion for Surrogate Modeling of Material Property Prediction</b><br>
+          <span class="me">Shaan Pakala</span>, Dawon Ahn, Evangelos Papalexakis<br>
+          <i>AAAI Bridge on Knowledge-Guided Machine Learning 2025</i>
+          [<a href="https://arxiv.org/pdf/2501.18137" target="_blank" rel="noopener noreferrer">pdf</a>]
         </li>
       </ul>
       <p class="note">* equal contribution</p>
